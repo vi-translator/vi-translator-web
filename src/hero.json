@@ -1,0 +1,29 @@
+[
+  {
+    "img": "/img/hero-1.webp",
+    "lang": "ar",
+    "name": "العربية",
+    "sub_en": "I'm 'bout to make the drop.",
+    "sub_tr": "سأُسقط الحمولة الآن.",
+    "inst_en": "Follow the plane",
+    "inst_tr": "اتبع [[الطائرة]]"
+  },
+  {
+    "img": "/img/hero-2.webp",
+    "lang": "es",
+    "name": "Español",
+    "sub_en": "Can't take him anywhere, man.",
+    "sub_tr": "No se puede ir con él a ningún lado, amigo.",
+    "inst_en": "Check on Dobbs",
+    "inst_tr": "Ve a ver a [[Dobbs]]"
+  },
+  {
+    "img": "/img/hero-3.webp",
+    "lang": "ja",
+    "name": "日本語",
+    "sub_en": "Get your foot on the gas. Let's move it!",
+    "sub_tr": "アクセル踏め。急ぐぞ！",
+    "inst_en": "Chase Arnold",
+    "inst_tr": "[[アーノルド]]を追え"
+  }
+]

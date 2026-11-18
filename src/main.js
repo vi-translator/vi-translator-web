@@ -1,27 +1,28 @@
-// The hero's TV: real frames from the game, each with its subtitle translated above the game's own
-// English line, changing every few seconds. Still for people who prefer less motion.
+// The hero's TV: real frames from the game, each with its subtitle and objective translated into
+// another language, above the game's own English lines. Still for people who prefer less motion.
 (() => {
   const data = document.getElementById("demo");
   const sub = document.querySelector(".sub");
   if (!data || !sub) return;
   const lines = JSON.parse(data.textContent);
-  const [en, tr] = [sub.querySelector(".sub-en"), sub.querySelector(".sub-tr")];
-  // each line has its own frame from the game
   const frames = [...document.querySelectorAll(".screen .scene")];
-  en.innerHTML = lines[0][0];
-  tr.innerHTML = lines[0][1];
+  const [tr, inst, en, name] = [".sub-tr", ".inst-tr", ".sub-en", ".sub-lang"].map((c) => sub.querySelector(c));
   if (lines.length < 2 || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   let i = 0;
   setInterval(() => {
     sub.classList.add("fade");
     setTimeout(() => {
       i = (i + 1) % lines.length;
+      const l = lines[i];
       frames.forEach((f, k) => f.classList.toggle("on", k === i % frames.length));
-      en.innerHTML = lines[i][0];
-      tr.innerHTML = lines[i][1];
+      for (const p of [tr, inst]) { p.lang = l.lang; p.dir = l.dir; }
+      tr.innerHTML = l.sub_tr;
+      inst.innerHTML = l.inst_tr;
+      en.innerHTML = `${l.sub_en} ${l.inst_en}`;
+      name.textContent = l.name;
       sub.classList.remove("fade");
     }, 380);
-  }, 3800);
+  }, 4200);
 })();
 
 // Setups: each step's tabs (with no script, every setup shows one after another)

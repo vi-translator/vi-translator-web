@@ -52,6 +52,17 @@ const versioned = (html) =>
     return `${host}${path}?v=${fileVersion[path]}`;
   });
 
+// the hero's TV: real frames from the game, each translated into another language (src/hero.json)
+const hero = JSON.parse(readFileSync("src/hero.json", "utf8"));
+const rtlLangs = new Set(["ar", "fa", "ur", "he"]);
+const heroLines = (h) => {
+  const dir = rtlLangs.has(h.lang) ? "rtl" : "ltr";
+  return `<p class="sub-tr" dir="${dir}" lang="${h.lang}">${marks(h.sub_tr)}</p>
+              <p class="inst-tr" dir="${dir}" lang="${h.lang}">${marks(h.inst_tr)}</p>
+              <p class="sub-en" dir="ltr" lang="en">${esc(h.sub_en)} ${esc(h.inst_en)}</p>
+              <p class="sub-lang">${esc(h.name)}</p>`;
+};
+
 // a version for the css and js addresses, so a new build is never served from an old cache
 const css = readFileSync("src/style.css", "utf8");
 const js = readFileSync("src/main.js", "utf8");
@@ -86,9 +97,10 @@ ${items}
         </details>`,
     footer_langs: `      <nav class="footer-langs" aria-label="${esc(s.lang_label)}">${built.map((o) => `<a href="${o.path}" hreflang="${o.code}" lang="${o.code}">${esc(o.name)}</a>`).join(" ")}</nav>`,
     // the demo lines for main.js, already marked up (it shows them as they are)
-    demo_json: JSON.stringify([1, 2, 3].map((i) => [marks(s[`demo_en_${i}`]), marks(s[`demo_tr_${i}`])])).replace(/</g, "\\u003c"),
+    hero_first: heroLines(hero[0]),
+    demo_json: JSON.stringify(hero.map((h) => ({ ...h, sub_en: esc(h.sub_en), inst_en: esc(h.inst_en), sub_tr: marks(h.sub_tr), inst_tr: marks(h.inst_tr), dir: rtlLangs.has(h.lang) ? "rtl" : "ltr" }))).replace(/</g, "\\u003c"),
   };
-  const raw = new Set(["lang", "dir", "path", "build"]);
+  const raw = new Set(["lang", "dir", "path", "build", "hero_first"]);
   const html = template
     .replace(/\{\{\{(\w+)\}\}\}/g, (_, k) => {
       if (!(k in values)) throw new Error(`template: unknown {{{${k}}}}`);

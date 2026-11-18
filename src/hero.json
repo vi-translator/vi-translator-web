@@ -10,20 +10,20 @@
   },
   {
     "img": "/img/hero-2.webp",
-    "lang": "es",
-    "name": "Español",
+    "lang": "tr",
+    "name": "Türkçe",
     "sub_en": "Can't take him anywhere, man.",
-    "sub_tr": "No se puede ir con él a ningún lado, amigo.",
+    "sub_tr": "Onu hiçbir yere götüremiyorsun, dostum.",
     "inst_en": "Check on Dobbs",
-    "inst_tr": "Ve a ver a [[Dobbs]]"
+    "inst_tr": "[[Dobbs]]'u kontrol et"
   },
   {
     "img": "/img/hero-3.webp",
-    "lang": "ja",
-    "name": "日本語",
+    "lang": "hi",
+    "name": "हिन्दी",
     "sub_en": "Get your foot on the gas. Let's move it!",
-    "sub_tr": "アクセル踏め。急ぐぞ！",
+    "sub_tr": "पैर गैस पर रखो। चलो, जल्दी!",
     "inst_en": "Chase Arnold",
-    "inst_tr": "[[アーノルド]]を追え"
+    "inst_tr": "[[आर्नोल्ड]] का पीछा करो"
   }
 ]

@@ -1,11 +1,13 @@
-// The hero's TV: the subtitle changes every few seconds, like a game speaking (English line, and
-// its translation as the app draws it). Still for people who prefer less motion.
+// The hero's TV: real frames from the game, each with its subtitle translated above the game's own
+// English line, changing every few seconds. Still for people who prefer less motion.
 (() => {
   const data = document.getElementById("demo");
   const sub = document.querySelector(".sub");
   if (!data || !sub) return;
   const lines = JSON.parse(data.textContent);
   const [en, tr] = [sub.querySelector(".sub-en"), sub.querySelector(".sub-tr")];
+  // each line has its own frame from the game
+  const frames = [...document.querySelectorAll(".screen .scene")];
   en.innerHTML = lines[0][0];
   tr.innerHTML = lines[0][1];
   if (lines.length < 2 || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -14,6 +16,7 @@
     sub.classList.add("fade");
     setTimeout(() => {
       i = (i + 1) % lines.length;
+      frames.forEach((f, k) => f.classList.toggle("on", k === i % frames.length));
       en.innerHTML = lines[i][0];
       tr.innerHTML = lines[i][1];
       sub.classList.remove("fade");

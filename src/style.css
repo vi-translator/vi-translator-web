@@ -107,13 +107,16 @@ h1 { font-size: clamp(44px, 6vw, 76px); font-weight: 800; letter-spacing: -.01em
 .tv { margin: 0; }
 .screen { position: relative; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden;
   border: 10px solid #07050b; box-shadow: 0 0 0 1px #2f2440, 0 30px 80px -20px rgba(255, 90, 165, .45), 0 0 60px -10px rgba(62, 240, 216, .18); background: #000; }
-.scene { width: 100%; height: 100%; display: block; }
+.scene { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; opacity: 0; transition: opacity .6s; }
+.scene.on { opacity: 1; }
 .stand { width: 30%; height: 14px; margin: 0 auto; border-radius: 0 0 10px 10px; background: #07050b; box-shadow: 0 1px 0 #2f2440; }
-.sub { position: absolute; inset-inline: 0; bottom: 8%; display: grid; justify-items: center; gap: 4px; padding: 0 6%; text-align: center; }
+/* the translation sits just above the game's own English subtitle (in the frame), like the app draws it */
+.sub { position: absolute; inset-inline: 0; bottom: 15%; display: grid; justify-items: center; gap: 4px; padding: 0 6%; text-align: center; }
 .sub p { margin: 0; transition: opacity .35s; }
 .sub.fade p { opacity: 0; }
-.sub-en { font-size: clamp(11px, 1.3vw, 14px); color: rgba(255, 255, 255, .7); text-shadow: 0 1px 3px #000; }
-.sub-tr { font-size: clamp(16px, 2.1vw, 24px); font-weight: 700; color: #fff; background: rgba(8, 5, 14, .62); padding: 2px 14px; border-radius: 8px; text-shadow: 0 1px 2px #000; }
+/* (the English is in the picture: kept for screen readers only) */
+.sub-en { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.sub-tr { font-size: clamp(12px, 1.45vw, 17px); font-weight: 500; color: #fff; text-shadow: 0 1px 4px rgba(0, 0, 0, .95), 0 0 2px rgba(0, 0, 0, .7); }
 .pad-a { display: inline-grid; place-items: center; width: 1.25em; height: 1.25em; line-height: 1; border-radius: 50%; background: #3fb950; color: #04130a; font-size: .8em; font-weight: 800; vertical-align: .05em; margin: 0 .1em; }
 
 /* sections */

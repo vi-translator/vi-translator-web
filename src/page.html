@@ -42,7 +42,7 @@
   </header>
 
   <main id="main">
-    <!-- hero: the promise, and a TV with a live subtitle over a sunset scene -->
+    <!-- hero: the promise, and a TV showing the game with its subtitle translated -->
     <section class="hero">
       <div class="wrap hero-in">
         <div class="hero-text">
@@ -62,58 +62,10 @@
 
         <figure class="tv" aria-label="{{demo_label}}">
           <div class="screen">
-            <svg class="scene" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-              <defs>
-                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0" stop-color="#140c24" />
-                  <stop offset=".55" stop-color="#3a1236" />
-                  <stop offset="1" stop-color="#ff7a59" />
-                </linearGradient>
-                <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0" stop-color="#ffd25a" />
-                  <stop offset="1" stop-color="#ff5aa5" />
-                </linearGradient>
-                <clipPath id="sunclip">
-                  <rect x="0" y="0" width="640" height="150" />
-                  <rect x="0" y="156" width="640" height="10" />
-                  <rect x="0" y="172" width="640" height="8" />
-                  <rect x="0" y="186" width="640" height="6" />
-                  <rect x="0" y="198" width="640" height="4" />
-                </clipPath>
-              </defs>
-              <rect width="640" height="360" fill="url(#sky)" />
-              <circle cx="320" cy="200" r="96" fill="url(#sun)" clip-path="url(#sunclip)" />
-              <rect y="206" width="640" height="154" fill="#140a1f" />
-              <g class="grid" stroke="#ff5aa5" stroke-opacity=".55" stroke-width="1.2">
-                <line x1="0" y1="206" x2="640" y2="206" />
-                <line x1="0" y1="216" x2="640" y2="216" />
-                <line x1="0" y1="230" x2="640" y2="230" />
-                <line x1="0" y1="250" x2="640" y2="250" />
-                <line x1="0" y1="278" x2="640" y2="278" />
-                <line x1="0" y1="318" x2="640" y2="318" />
-                <line x1="320" y1="206" x2="320" y2="360" />
-                <line x1="290" y1="206" x2="200" y2="360" />
-                <line x1="350" y1="206" x2="440" y2="360" />
-                <line x1="260" y1="206" x2="80" y2="360" />
-                <line x1="380" y1="206" x2="560" y2="360" />
-                <line x1="230" y1="206" x2="-40" y2="360" />
-                <line x1="410" y1="206" x2="680" y2="360" />
-              </g>
-              <!-- palms (silhouettes) -->
-              <g fill="#0b0613">
-                <path d="M92 206 C96 160 100 120 112 84 L118 86 C108 122 104 162 102 206 Z" />
-                <path d="M114 86 C90 70 64 72 44 88 C70 80 92 84 112 92 Z" />
-                <path d="M114 86 C104 62 84 50 60 52 C84 60 100 72 110 90 Z" />
-                <path d="M114 86 C126 62 148 54 172 60 C148 64 132 74 118 92 Z" />
-                <path d="M114 86 C140 78 164 86 180 104 C158 92 138 88 116 92 Z" />
-                <path d="M114 86 C112 66 120 50 134 40 C124 56 120 70 118 90 Z" />
-                <path d="M548 206 C546 170 540 136 528 108 L534 106 C546 136 552 170 556 206 Z" />
-                <path d="M530 108 C510 94 488 94 470 108 C492 102 510 104 528 114 Z" />
-                <path d="M530 108 C526 88 510 76 490 74 C508 84 520 96 526 112 Z" />
-                <path d="M530 108 C542 90 562 84 584 90 C562 92 546 100 534 114 Z" />
-                <path d="M530 108 C552 104 572 112 586 128 C566 118 550 114 532 114 Z" />
-              </g>
-            </svg>
+            <!-- real frames from the game (its own English subtitle at the bottom); the translation is drawn above it -->
+            <img class="scene on" src="/img/hero-1.webp" alt="" width="1280" height="720" fetchpriority="high" />
+            <img class="scene" src="/img/hero-2.webp" alt="" width="1280" height="720" loading="lazy" />
+            <img class="scene" src="/img/hero-3.webp" alt="" width="1280" height="720" loading="lazy" />
             <div class="sub" aria-live="polite">
               <p class="sub-en" dir="ltr" lang="en">{{demo_en_1}}</p>
               <p class="sub-tr" dir="rtl" lang="ar">{{demo_tr_1}}</p>

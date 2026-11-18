@@ -179,7 +179,8 @@ a.dl:hover { text-decoration: none; border-color: var(--pink); transform: transl
 
 .cta { padding: 110px 0; text-align: center; position: relative; overflow: hidden;
   background: radial-gradient(50% 70% at 50% 100%, rgba(255, 90, 165, .25), transparent 70%), var(--bg); }
-.cta h2 { margin-bottom: 28px; display: inline-block; }
+.cta .wrap { display: flex; flex-direction: column; align-items: center; gap: 28px; }
+.cta h2 { display: inline-block; max-width: 100%; }
 
 .footer { border-top: 1px solid var(--line); padding: 36px 0 44px; background: #0b0812; }
 .footer-top { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; }

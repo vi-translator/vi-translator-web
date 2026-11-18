@@ -128,7 +128,7 @@
   "sb_title": "Na grze, na telewizorze",
   "sb_text": "Aplikacja na telewizor wyświetla tłumaczenie na obrazie HDMI z konsoli, w tych samych miejscach co na PC. Z kartą z 4K passthrough telewizor zachowuje pełny obraz 4K z konsoli.",
   "sb_need": "Konfiguracja z kartą przechwytującą · Telewizor z Google TV lub Android TV",
-  "sb_1": "Zainstaluj VI Translator na Android TV lub Google TV.",
+  "sb_1": "Na telewizorze zainstaluj Downloader z Google Play, otwórz go i wpisz kod [[3156727]], a potem zainstaluj VI Translator.",
   "sb_2": "Otwórz ją: pokaże 6-cyfrowy kod i poczeka 10 minut, jeśli przełączysz telewizor na PC.",
   "sb_3": "Na PC: karta „Źródło”, „Pokaż na telewizorze”, „Połącz telewizor”. Wpisz kod i naciśnij „Połącz”.",
   "sb_4": "Przełącz na wejście konsoli i graj. Wybierz „Pokazuj na”, aby tłumaczenie było tylko na tym wejściu.",

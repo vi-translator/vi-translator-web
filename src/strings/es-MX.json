@@ -128,7 +128,7 @@
   "sb_title": "Sobre el juego, en tu TV",
   "sb_text": "La app de TV dibuja la traducción sobre la imagen HDMI de la consola, en los mismos lugares que en la PC. Con una capturadora con passthrough 4K, la TV conserva la imagen 4K completa de la consola.",
   "sb_need": "La configuración con capturadora · Una TV con Google TV o Android TV",
-  "sb_1": "Instala VI Translator en tu Android TV o Google TV.",
+  "sb_1": "En la tele, instala Downloader desde Google Play, ábrelo y escribe el código [[3156727]]; luego instala VI Translator.",
   "sb_2": "Ábrela: muestra un código de 6 dígitos y sigue esperando 10 minutos si cambias la TV a la entrada de tu PC.",
   "sb_3": "En la PC: pestaña Origen, Mostrar en una TV, Conectar una TV. Escribe el código y presiona Conectar.",
   "sb_4": "Cambia a la entrada de tu consola y juega. Elige Mostrar en para que la traducción salga solo en esa entrada.",

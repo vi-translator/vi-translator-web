@@ -128,7 +128,7 @@
   "sb_title": "Sa ibabaw ng laro, sa TV mo",
   "sb_text": "Iginuguhit ng TV app ang salin sa ibabaw ng HDMI na larawan ng console, sa parehong mga puwesto gaya ng sa PC. Sa 4K passthrough card, nananatili sa TV ang buong 4K na larawan ng console.",
   "sb_need": "Ang setup ng capture card · TV na may Google TV o Android TV",
-  "sb_1": "I-install ang VI Translator sa Android TV o Google TV mo.",
+  "sb_1": "Sa TV, i-install ang Downloader mula sa Google Play, buksan ito at ilagay ang code na [[3156727]], saka i-install ang VI Translator.",
   "sb_2": "Buksan ito: magpapakita ito ng 6-digit na code, at maghihintay pa ng 10 minuto kung ililipat mo ang TV sa PC mo.",
   "sb_3": "Sa PC: tab na Source, Ipakita sa TV, Magkonekta ng TV. I-type ang code at pindutin ang Kumonekta.",
   "sb_4": "Lumipat sa input ng console mo at maglaro. Piliin ang Ipakita sa para manatili ang salin sa input na iyon lang.",

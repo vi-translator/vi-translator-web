@@ -128,7 +128,7 @@
   "sb_title": "Peste joc, pe televizor",
   "sb_text": "Aplicația de televizor desenează traducerea peste imaginea HDMI a consolei, în aceleași locuri ca pe PC. Cu o placă cu passthrough 4K, televizorul păstrează imaginea 4K completă a consolei.",
   "sb_need": "Configurarea cu placă de captură · Un televizor cu Google TV sau Android TV",
-  "sb_1": "Instalează VI Translator pe Android TV sau Google TV.",
+  "sb_1": "Pe televizor, instalează Downloader din Google Play, deschide-l și introdu codul [[3156727]], apoi instalează VI Translator.",
   "sb_2": "Deschide-o: afișează un cod din 6 cifre și mai așteaptă 10 minute dacă treci televizorul pe intrarea PC-ului.",
   "sb_3": "Pe PC: fila Sursă, Afișează pe un televizor, Conectează un televizor. Scrie codul și apasă Conectare.",
   "sb_4": "Treci pe intrarea consolei și joacă. Alege Afișează pe ca traducerea să apară doar pe acea intrare.",

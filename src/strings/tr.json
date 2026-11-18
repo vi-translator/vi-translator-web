@@ -128,7 +128,7 @@
   "sb_title": "Oyunun üzerinde, televizyonunda",
   "sb_text": "TV uygulaması, çeviriyi konsolun HDMI görüntüsünün üzerine PC'deki ile aynı yerlere çizer. 4K passthrough özellikli bir kartla televizyon, konsolun tam 4K görüntüsünü korur.",
   "sb_need": "Yakalama kartı kurulumu · Google TV ya da Android TV'li bir televizyon",
-  "sb_1": "VI Translator'ı Android TV ya da Google TV'ne yükle.",
+  "sb_1": "TV'de Google Play'den Downloader'ı yükle, aç ve [[3156727]] kodunu gir, ardından VI Translator'ı yükle.",
   "sb_2": "Aç: 6 haneli bir kod gösterir ve televizyonu PC'ne geçirirsen 10 dakika beklemeye devam eder.",
   "sb_3": "PC'de: Kaynak sekmesi, Televizyonda göster, Televizyon bağla. Kodu yaz ve Bağlan'a bas.",
   "sb_4": "Konsolunun girişine geç ve oyna. Çeviriyi yalnızca o girişte tutmak için \"Göster\"i seç.",

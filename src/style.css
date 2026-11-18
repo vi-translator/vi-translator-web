@@ -277,3 +277,4 @@ a.dl:hover { text-decoration: none; border-color: var(--pink); transform: transl
 .legal li + li { margin-top: 6px; }
 .legal .updated { color: var(--muted); margin-bottom: 26px; }
 .legal .back { margin-top: 48px; }
+.dl-code { color: var(--gold); font-size: 20px; letter-spacing: .08em; }

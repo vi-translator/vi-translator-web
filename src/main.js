@@ -21,10 +21,8 @@
   }, 3800);
 })();
 
-// Setups: tabs (with no script, every setup shows one after another)
-(() => {
-  const list = document.querySelector(".tabs");
-  if (!list) return;
+// Setups: each step's tabs (with no script, every setup shows one after another)
+for (const list of document.querySelectorAll(".tabs")) {
   const tabs = [...list.querySelectorAll(".tab")];
   const show = (tab, focus) => {
     for (const t of tabs) {
@@ -44,8 +42,8 @@
     const next = { ArrowRight: rtl ? -1 : 1, ArrowLeft: rtl ? 1 : -1 }[e.key];
     if (next) { e.preventDefault(); show(tabs[(i + next + tabs.length) % tabs.length], true); }
   });
-  show(tabs[0]);
-})();
+  show(tabs.find((t) => t.getAttribute("aria-selected") === "true") || tabs[0]);
+}
 
 // the language list closes on a click elsewhere
 document.addEventListener("click", (e) => {

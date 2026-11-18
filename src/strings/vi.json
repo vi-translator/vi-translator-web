@@ -143,6 +143,7 @@
   "sb_shot_1": "Mã của ứng dụng TV",
   "sb_shot_2": "Kết nối TV, trên PC",
   "sb_shot_3": "Đã kết nối, với “Hiển thị trên” và “Ngắt kết nối”",
+  "sn_title": "Trên Android TV",
   "sl_title": "Trên TV LG",
   "sl_text": "Cửa hàng của LG không cho phép ứng dụng hiển thị đè lên cổng khác, nên ứng dụng LG được cài bằng Developer Mode miễn phí của LG. Giống như trên Android TV, bản dịch hiện trên cổng của máy chơi game. Dành cho TV LG chạy webOS 5 trở lên (từ 2020 trở về sau).",
   "sl_1": "Tạo tài khoản miễn phí tại webostv.developer.lge.com. Trên TV, cài Developer Mode từ LG Content Store, đăng nhập, bật Dev Mode Status (TV sẽ khởi động lại), rồi bật Key Server.",

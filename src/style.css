@@ -297,3 +297,4 @@ a.dl:hover { text-decoration: none; border-color: var(--pink); transform: transl
 .setup-tips strong { color: var(--gold); }
 .setup-tips ul { margin: 8px 0 0; padding-inline-start: 20px; }
 .setup-tips li + li { margin-top: 6px; }
+.setup-intro { grid-template-columns: minmax(0, 1fr); max-width: 820px; }

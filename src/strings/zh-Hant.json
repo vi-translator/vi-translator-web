@@ -143,6 +143,7 @@
   "sb_shot_1": "電視應用程式的代碼",
   "sb_shot_2": "電腦上的「連線電視」",
   "sb_shot_3": "已連線，含「顯示於」和「中斷連線」",
+  "sn_title": "在 Android TV 上",
   "sl_title": "在 LG 電視上",
   "sl_text": "LG 的應用程式商店不允許疊加在其他訊號源上的應用程式，因此 LG 版應用程式要透過 LG 免費的 Developer Mode 安裝。和 Android TV 一樣，譯文會疊加在主機的訊號源上。適用於 webOS 5 或更新版本的 LG 電視（2020 年及之後）。",
   "sl_1": "在 webostv.developer.lge.com 免費註冊帳號。在電視上從 LG Content Store 安裝 Developer Mode，登入後開啟 Dev Mode Status（電視會重新啟動），再開啟 Key Server。",

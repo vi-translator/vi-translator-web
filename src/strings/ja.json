@@ -143,6 +143,7 @@
   "sb_shot_1": "テレビアプリのコード",
   "sb_shot_2": "PC の「テレビを接続」",
   "sb_shot_3": "接続済み。「表示」と「接続を解除」",
+  "sn_title": "Android TV で",
   "sl_title": "LG のテレビで",
   "sl_text": "LG のストアは他の入力の上に表示するアプリを認めていないため、LG 用アプリは LG の無料の Developer Mode を使ってインストールします。Android TV と同じく、ゲーム機の入力の上に翻訳が表示されます。webOS 5 以降の LG テレビ（2020 年以降）に対応。",
   "sl_1": "webostv.developer.lge.com で無料アカウントを作成します。テレビで LG Content Store から Developer Mode をインストールしてサインインし、Dev Mode Status をオンにして（テレビが再起動します）、次に Key Server をオンにします。",

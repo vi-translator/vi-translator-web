@@ -84,7 +84,7 @@
   "dl_tv_samsung": "Samsung Tizen",
   "dl_soon": "Segera hadir",
   "privacy_title": "Privasi",
-  "privacy_text": "\"Bantu tingkatkan terjemahan\" aktif secara default: setiap beberapa menit, fitur ini mengirim kalimat bahasa Inggris yang kamu lihat (subtitle, instruksi, keterangan) ke server proyek, agar bisa diterjemahkan lebih baik untuk semua orang. Sifatnya anonim: ID instalasi acak, tanpa akun, tanpa tangkapan layar, dan tidak pernah menu, tempat nama pemain muncul. Matikan di tab Lanjutan dan tidak ada lagi yang dikirim.",
+  "privacy_text": "\"Bantu tingkatkan terjemahan\" aktif secara default: sesekali, fitur ini mengirim kalimat bahasa Inggris yang kamu lihat (subtitle, instruksi, keterangan) ke server proyek, agar bisa diterjemahkan lebih baik untuk semua orang. Sifatnya anonim: ID instalasi acak, tanpa akun, tanpa tangkapan layar. Matikan di tab Lanjutan dan tidak ada lagi yang dikirim.",
   "faq_title": "Pertanyaan",
   "q1": "Apakah gratis?",
   "a1": "Ya. Aplikasinya gratis, dengan penerjemah offline gratis untuk beberapa bahasa. Layanan online seperti DeepL atau Google memakai kuncimu sendiri dan tarif mereka sendiri.",

@@ -84,7 +84,7 @@
   "dl_tv_samsung": "Samsung Tizen",
   "dl_soon": "Próximamente",
   "privacy_title": "Privacidad",
-  "privacy_text": "\"Ayudar a mejorar las traducciones\" está activado por defecto: cada pocos minutos envía al servidor del proyecto las frases en inglés que has visto (subtítulos, instrucciones, rótulos), para que se puedan traducir mejor para todos. Es anónimo: un ID de instalación aleatorio, sin cuenta, sin capturas de pantalla y nunca los menús, donde aparecen nombres de jugadores. Desactívalo en la pestaña Avanzado y no se enviará nada más.",
+  "privacy_text": "\"Ayudar a mejorar las traducciones\" está activado por defecto: de vez en cuando envía al servidor del proyecto las frases en inglés que has visto (subtítulos, instrucciones, rótulos), para que se puedan traducir mejor para todos. Es anónimo: un ID de instalación aleatorio, sin cuenta, sin capturas de pantalla. Desactívalo en la pestaña Avanzado y no se enviará nada más.",
   "faq_title": "Preguntas",
   "q1": "¿Es gratis?",
   "a1": "Sí. La app es gratuita, con un traductor gratuito sin conexión para algunos idiomas. Los servicios en línea como DeepL o Google usan tu propia clave y sus propias tarifas.",

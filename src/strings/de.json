@@ -84,7 +84,7 @@
   "dl_tv_samsung": "Samsung Tizen",
   "dl_soon": "Demnächst",
   "privacy_title": "Datenschutz",
-  "privacy_text": "„Übersetzungen verbessern helfen“ ist standardmäßig aktiv: Alle paar Minuten schickt es die englischen Zeilen, die du gesehen hast (Untertitel, Anweisungen, Einblendungen), an den Server des Projekts, damit sie für alle besser übersetzt werden können. Das ist anonym: eine zufällige Installations-ID, kein Konto, keine Screenshots und nie Menüs, in denen Spielernamen stehen. Schalte es im Tab Erweitert aus, dann wird nichts mehr gesendet.",
+  "privacy_text": "„Übersetzungen verbessern helfen“ ist standardmäßig aktiv: Gelegentlich schickt es die englischen Zeilen, die du gesehen hast (Untertitel, Anweisungen, Einblendungen), an den Server des Projekts, damit sie für alle besser übersetzt werden können. Das ist anonym: eine zufällige Installations-ID, kein Konto, keine Screenshots. Schalte es im Tab Erweitert aus, dann wird nichts mehr gesendet.",
   "faq_title": "Fragen",
   "q1": "Ist es kostenlos?",
   "a1": "Ja. Die App ist kostenlos, mit einem kostenlosen Offline-Übersetzer für einige Sprachen. Onlinedienste wie DeepL oder Google nutzen deinen eigenen Schlüssel und ihre eigenen Preise.",

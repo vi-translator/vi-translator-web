@@ -84,7 +84,7 @@
   "dl_tv_samsung": "Samsung Tizen",
   "dl_soon": "Coming soon",
   "privacy_title": "Privacy",
-  "privacy_text": "\"Help improve translations\" is on by default: every few minutes it sends the English lines you saw (subtitles, instructions, captions) to the project's server, so they can be translated better for everyone. It's anonymous: a random install ID, no account, no screenshots, and never menus, where player names appear. Turn it off in the Advanced tab and nothing more is sent.",
+  "privacy_text": "\"Help improve translations\" is on by default: occasionally it sends the English lines you saw (subtitles, instructions, captions) to the project's server, so they can be translated better for everyone. It's anonymous: a random install ID, no account, no screenshots. Turn it off in the Advanced tab and nothing more is sent.",
   "faq_title": "Questions",
   "q1": "Is it free?",
   "a1": "Yes. The app is free, with a free offline translator for some languages. Online services like DeepL or Google use your own key and their own pricing.",

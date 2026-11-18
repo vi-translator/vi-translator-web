@@ -84,7 +84,7 @@
   "dl_tv_samsung": "Samsung Tizen",
   "dl_soon": "În curând",
   "privacy_title": "Confidențialitate",
-  "privacy_text": "„Ajutați la îmbunătățirea traducerilor” este activată implicit: la fiecare câteva minute trimite către serverul proiectului replicile în engleză pe care le-ai văzut (subtitrări, instrucțiuni, texte de pe ecran), ca să poată fi traduse mai bine pentru toată lumea. Este anonimă: un ID de instalare aleatoriu, fără cont, fără capturi de ecran și niciodată meniuri, unde apar numele jucătorilor. Dezactiveaz-o în fila Avansat și nu se mai trimite nimic.",
+  "privacy_text": "„Ajutați la îmbunătățirea traducerilor” este activată implicit: din când în când trimite către serverul proiectului replicile în engleză pe care le-ai văzut (subtitrări, instrucțiuni, texte de pe ecran), ca să poată fi traduse mai bine pentru toată lumea. Este anonimă: un ID de instalare aleatoriu, fără cont, fără capturi de ecran. Dezactiveaz-o în fila Avansat și nu se mai trimite nimic.",
   "faq_title": "Întrebări",
   "q1": "Este gratuită?",
   "a1": "Da. Aplicația este gratuită, cu un traducător offline gratuit pentru unele limbi. Serviciile online precum DeepL sau Google folosesc propria ta cheie și prețurile lor.",

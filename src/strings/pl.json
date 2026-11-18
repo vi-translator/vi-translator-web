@@ -84,7 +84,7 @@
   "dl_tv_samsung": "Samsung Tizen",
   "dl_soon": "Wkrótce",
   "privacy_title": "Prywatność",
-  "privacy_text": "„Pomóż ulepszać tłumaczenia” jest domyślnie włączone: co kilka minut aplikacja wysyła na serwer projektu angielskie kwestie, które widziałeś (napisy, instrukcje, podpisy), aby można je było lepiej przetłumaczyć dla wszystkich. To anonimowe: losowy identyfikator instalacji, bez konta, bez zrzutów ekranu i nigdy menu, w których widać nazwy graczy. Wyłącz to na karcie „Zaawansowane”, a nic więcej nie zostanie wysłane.",
+  "privacy_text": "„Pomóż ulepszać tłumaczenia” jest domyślnie włączone: od czasu do czasu aplikacja wysyła na serwer projektu angielskie kwestie, które widziałeś (napisy, instrukcje, podpisy), aby można je było lepiej przetłumaczyć dla wszystkich. To anonimowe: losowy identyfikator instalacji, bez konta, bez zrzutów ekranu. Wyłącz to na karcie „Zaawansowane”, a nic więcej nie zostanie wysłane.",
   "faq_title": "Pytania",
   "q1": "Czy to jest darmowe?",
   "a1": "Tak. Aplikacja jest darmowa, a dla niektórych języków ma darmowy tłumacz offline. Usługi online, takie jak DeepL czy Google, korzystają z twojego własnego klucza i własnego cennika.",

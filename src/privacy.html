@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy policy · VI Translator</title>
+  <meta name="description" content="What VI Translator's desktop and TV apps send, to whom, and how to turn it off." />
+  <meta name="theme-color" content="#0f0b17" />
+  <link rel="canonical" href="https://vitranslator.app/privacy/" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/style.css?v={{build}}" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-in">
+      <a class="brand" href="/">
+        <img src="/img/logo-256.png" alt="" width="36" height="36" />
+        <span>VI Translator</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main" class="section legal">
+    <div class="wrap narrow">
+      <h1>Privacy policy</h1>
+      <p class="updated">Last updated: {{updated}}</p>
+
+      <p>VI Translator is a free, open-source app that reads a game's subtitles and shows them
+        translated. This page covers the desktop app (Windows, macOS, Linux), the TV apps (Android TV,
+        LG webOS, Samsung Tizen) and this website. There are no accounts, no ads and no trackers.</p>
+
+      <h2>In short</h2>
+      <ul>
+        <li>The game picture and screenshots never leave your computer.</li>
+        <li>One feature sends data to us: <strong>Help improve translations</strong>. It sends the
+          English game lines you saw, with a random install ID. It is on by default and you can turn it
+          off.</li>
+        <li>The TV apps only talk to your own computer, on your home network.</li>
+        <li>We don't sell or share data, and we don't use it for advertising.</li>
+      </ul>
+
+      <h2>Desktop app</h2>
+      <h3>Help improve translations (on by default)</h3>
+      <p>Every few minutes, the app sends the English lines it read on screen (subtitles, instructions,
+        captions) to our server at vitranslator.app, so they can be translated better for everyone.
+        Each batch includes:</p>
+      <ul>
+        <li>the lines themselves, and which game they are from;</li>
+        <li>whether one of that game's own screens was seen while playing (so lines from other
+          programs can be told apart);</li>
+        <li>a random install ID made by the app when it was first started. It isn't linked to your
+          name, email or device, and the server stores only a one-way hash of it.</li>
+      </ul>
+      <p>It never sends menus (where player and friend names appear), screenshots, the game picture
+        or any account names. Lines seen while the picture looks like a
+        different game are not sent. Turn it off in the app (<em>Advanced</em> tab) and nothing more is
+        sent.</p>
+
+      <h3>Translation services you choose</h3>
+      <p>The app translates on your computer by default. The first time, it downloads the translation
+        model from Hugging Face (huggingface.co); after that it works offline. If you choose an online service instead (such
+        as DeepL, Google, Microsoft Azure, LibreTranslate or Claude) and enter your own key for it, the
+        lines to translate go straight from your computer to that service, under its own privacy policy.
+        Your keys are stored encrypted on your computer and are never sent to us.</p>
+
+      <h3>Updates and game data</h3>
+      <p>The app checks GitHub about once an hour for a new version, and downloads game information
+        and translation data from vitranslator.app. These requests carry no personal data; like any
+        web request, they reveal your IP address to the server that answers.</p>
+
+      <h3>Phone and OBS pages</h3>
+      <p>If you turn on the phone page or the OBS overlay, the app serves the translations on your
+        home network only, to devices that open the address it shows. Nothing goes over the internet.</p>
+
+      <h2>TV apps</h2>
+      <p>The Android TV, LG webOS and Samsung Tizen apps show the translations your computer sends
+        them over your home network. To pair, the TV shows a code that you type in the desktop app; the
+        TV then remembers that computer's address and a pairing token. The TV apps send nothing to us or
+        to anyone else, and collect nothing about what you watch. The input-source setting (show on one
+        HDMI input) is read from the TV and stays on the TV. <em>Disconnect</em> on the TV, or removing
+        the TV in the desktop app, erases the pairing.</p>
+
+      <h2>This website</h2>
+      <p>vitranslator.app sets no cookies and runs no analytics. It is served through Cloudflare, which
+        processes requests (including IP addresses) to deliver and protect the site, under
+        <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's privacy policy</a>.</p>
+
+      <h2>What the server keeps, and for how long</h2>
+      <ul>
+        <li><strong>Game lines</strong> sent by <em>Help improve translations</em>: kept to build and
+          review translations. They are game text, not personal data.</li>
+        <li><strong>Install ID hashes</strong>: kept with the lines, to limit how much one install can
+          send and to block abuse.</li>
+        <li><strong>IP addresses</strong>: used in memory only, to limit how many requests one address
+          can make per hour; never stored in the database. The web server's standard access logs, which
+          include IP addresses, are deleted after 14 days.</li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>The apps aren't aimed at children and don't knowingly collect any personal information from
+        anyone.</p>
+
+      <h2>Your choices</h2>
+      <ul>
+        <li>Turn off <em>Help improve translations</em> in the desktop app's <em>Advanced</em> tab.</li>
+        <li>Everything the apps store stays on your devices: the TV apps' data goes when you uninstall
+          them, and the desktop app's data is in its folders (<em>Documents\VI Translator</em>, <em>Pictures\VI Translator</em>
+          and the app's settings folder), which you can delete.</li>
+        <li>Because the server stores no name, email or readable install ID, it can't tell which lines
+          are yours. For any question or request, open an issue on
+          <a href="https://github.com/vi-translator/vi-translator-desktop/issues">GitHub</a>.</li>
+      </ul>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version is posted here with a new date.</p>
+
+      <p class="back"><a href="/">← VI Translator</a></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="disclaimer">VI Translator is an unofficial fan project, not affiliated with or endorsed by Rockstar Games or Take-Two Interactive. "Grand Theft Auto" and "GTA" are trademarks of Take-Two Interactive Software, Inc. Other names are trademarks of their owners.</p>
+    </div>
+  </footer>
+</body>
+</html>

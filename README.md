@@ -11,6 +11,7 @@
 ## What's here
 
 - `src/page.html`: the page, one template for every language.
+- `src/privacy.html`: the privacy policy at /privacy/ (English only; the store listings link to it). Change its date in `build.mjs` (`UPDATED`) when it changes.
 - `src/strings/<code>.json`: each language's text (every key of `en.json`). `[[word]]` marks a
   highlighted word and `[A]` a controller button, as in the game.
 - `src/languages.json`: the languages, in the desktop app's order. Arabic is at `/`, the others at

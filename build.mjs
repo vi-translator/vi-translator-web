@@ -91,10 +91,17 @@ ${items}
   writeFileSync(`${dir}index.html`, html);
 }
 
+// the privacy policy (English only), at /privacy/
+const UPDATED = "18 November 2026";
+mkdirSync("dist/privacy", { recursive: true });
+writeFileSync("dist/privacy/index.html", readFileSync("src/privacy.html", "utf8")
+  .replace(/\{\{build\}\}/g, build).replace(/\{\{updated\}\}/g, UPDATED));
+
 // for search engines: every language's page
 writeFileSync("dist/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${built.map((l) => `  <url><loc>${SITE}${l.path}</loc>\n${built.map((o) => `    <xhtml:link rel="alternate" hreflang="${o.code}" href="${SITE}${o.path}"/>`).join("\n")}\n  </url>`).join("\n")}
+  <url><loc>${SITE}/privacy/</loc></url>
 </urlset>
 `);
 writeFileSync("dist/robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);

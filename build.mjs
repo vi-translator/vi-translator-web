@@ -40,6 +40,18 @@ for (const l of languages) {
 if (missing.length && strict) throw new Error(`no text yet for: ${missing.join(", ")}`);
 const built = languages.filter((l) => texts[l.code]);
 
+// each picture's address carries a hash of the file: a new screenshot is never served from an old
+// cache (pictures are cached for a week); the og:image and icons too
+const fileVersion = {};
+const versioned = (html) =>
+  html.replace(/(["(])(\/img\/[\w.-]+\.(?:webp|png|jpg|svg)|\/favicon\.png)(?=[")])/g, (_, q, path) => {
+    fileVersion[path] ||= createHash("sha256").update(readFileSync(`public${path}`)).digest("hex").slice(0, 8);
+    return `${q}${path}?v=${fileVersion[path]}`;
+  }).replace(/(https:\/\/vitranslator\.app)(\/img\/[\w.-]+\.png)(?=")/g, (_, host, path) => {
+    fileVersion[path] ||= createHash("sha256").update(readFileSync(`public${path}`)).digest("hex").slice(0, 8);
+    return `${host}${path}?v=${fileVersion[path]}`;
+  });
+
 // a version for the css and js addresses, so a new build is never served from an old cache
 const css = readFileSync("src/style.css", "utf8");
 const js = readFileSync("src/main.js", "utf8");
@@ -88,14 +100,14 @@ ${items}
     });
   const dir = `dist${l.path}`;
   mkdirSync(dir, { recursive: true });
-  writeFileSync(`${dir}index.html`, html);
+  writeFileSync(`${dir}index.html`, versioned(html));
 }
 
 // the privacy policy (English only), at /privacy/
 const UPDATED = "18 November 2026";
 mkdirSync("dist/privacy", { recursive: true });
-writeFileSync("dist/privacy/index.html", readFileSync("src/privacy.html", "utf8")
-  .replace(/\{\{build\}\}/g, build).replace(/\{\{updated\}\}/g, UPDATED));
+writeFileSync("dist/privacy/index.html", versioned(readFileSync("src/privacy.html", "utf8")
+  .replace(/\{\{build\}\}/g, build).replace(/\{\{updated\}\}/g, UPDATED)));
 
 // for search engines: every language's page
 writeFileSync("dist/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>

@@ -1,5 +1,6 @@
 {
   "name": "vi-translator-web",
+  "license": "MIT",
   "private": true,
   "description": "The VI Translator landing page (vitranslator.app)",
   "type": "module",

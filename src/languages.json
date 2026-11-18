@@ -3,13 +3,13 @@
     "code": "ar",
     "name": "العربية",
     "dir": "rtl",
-    "path": "/"
+    "path": "/ar/"
   },
   {
     "code": "en",
     "name": "English",
     "dir": "ltr",
-    "path": "/en/"
+    "path": "/"
   },
   {
     "code": "hi",

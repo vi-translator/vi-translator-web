@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="theme-color" content="#0f0b17" />
+  <link rel="canonical" href="https://vitranslator.app{{path}}" />
+{{{alternates}}}
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vitranslator.app{{path}}" />
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:description" content="{{description}}" />
+  <meta property="og:image" content="https://vitranslator.app/img/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preload" href="/fonts/Changa.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="/style.css?v={{build}}" />
+</head>
+<body>
+  <a class="skip" href="#main">{{skip}}</a>
+
+  <header class="nav">
+    <div class="wrap nav-in">
+      <a class="brand" href="{{path}}">
+        <img src="/img/logo-256.png" alt="" width="36" height="36" />
+        <span>VI Translator</span>
+      </a>
+      <nav class="links" aria-label="{{nav_features}}">
+        <a href="#features">{{nav_features}}</a>
+        <a href="#how">{{nav_how}}</a>
+        <a href="#setups">{{nav_setups}}</a>
+        <a href="#faq">{{nav_faq}}</a>
+      </nav>
+      <div class="nav-end">
+{{{lang_menu}}}
+        <a class="btn btn-sm" href="#download">{{nav_cta}}</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- hero: the promise, and a TV with a live subtitle over a sunset scene -->
+    <section class="hero">
+      <div class="wrap hero-in">
+        <div class="hero-text">
+          <p class="kicker">{{hero_kicker}}</p>
+          <h1><span class="sunset-text">{{hero_title_1}}</span><br /><span class="neon-text">{{hero_title_2}}</span></h1>
+          <p class="lead">{{hero_sub}}</p>
+          <div class="actions">
+            <a class="btn" href="#download">{{hero_cta}}</a>
+            <a class="btn btn-ghost" href="#how">{{hero_how}}</a>
+          </div>
+          <ul class="badges">
+            <li>{{hero_badge_1}}</li>
+            <li>{{hero_badge_2}}</li>
+            <li>{{hero_badge_3}}</li>
+          </ul>
+        </div>
+
+        <figure class="tv" aria-label="{{demo_label}}">
+          <div class="screen">
+            <svg class="scene" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#140c24" />
+                  <stop offset=".55" stop-color="#3a1236" />
+                  <stop offset="1" stop-color="#ff7a59" />
+                </linearGradient>
+                <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#ffd25a" />
+                  <stop offset="1" stop-color="#ff5aa5" />
+                </linearGradient>
+                <clipPath id="sunclip">
+                  <rect x="0" y="0" width="640" height="150" />
+                  <rect x="0" y="156" width="640" height="10" />
+                  <rect x="0" y="172" width="640" height="8" />
+                  <rect x="0" y="186" width="640" height="6" />
+                  <rect x="0" y="198" width="640" height="4" />
+                </clipPath>
+              </defs>
+              <rect width="640" height="360" fill="url(#sky)" />
+              <circle cx="320" cy="200" r="96" fill="url(#sun)" clip-path="url(#sunclip)" />
+              <rect y="206" width="640" height="154" fill="#140a1f" />
+              <g class="grid" stroke="#ff5aa5" stroke-opacity=".55" stroke-width="1.2">
+                <line x1="0" y1="206" x2="640" y2="206" />
+                <line x1="0" y1="216" x2="640" y2="216" />
+                <line x1="0" y1="230" x2="640" y2="230" />
+                <line x1="0" y1="250" x2="640" y2="250" />
+                <line x1="0" y1="278" x2="640" y2="278" />
+                <line x1="0" y1="318" x2="640" y2="318" />
+                <line x1="320" y1="206" x2="320" y2="360" />
+                <line x1="290" y1="206" x2="200" y2="360" />
+                <line x1="350" y1="206" x2="440" y2="360" />
+                <line x1="260" y1="206" x2="80" y2="360" />
+                <line x1="380" y1="206" x2="560" y2="360" />
+                <line x1="230" y1="206" x2="-40" y2="360" />
+                <line x1="410" y1="206" x2="680" y2="360" />
+              </g>
+              <!-- palms (silhouettes) -->
+              <g fill="#0b0613">
+                <path d="M92 206 C96 160 100 120 112 84 L118 86 C108 122 104 162 102 206 Z" />
+                <path d="M114 86 C90 70 64 72 44 88 C70 80 92 84 112 92 Z" />
+                <path d="M114 86 C104 62 84 50 60 52 C84 60 100 72 110 90 Z" />
+                <path d="M114 86 C126 62 148 54 172 60 C148 64 132 74 118 92 Z" />
+                <path d="M114 86 C140 78 164 86 180 104 C158 92 138 88 116 92 Z" />
+                <path d="M114 86 C112 66 120 50 134 40 C124 56 120 70 118 90 Z" />
+                <path d="M548 206 C546 170 540 136 528 108 L534 106 C546 136 552 170 556 206 Z" />
+                <path d="M530 108 C510 94 488 94 470 108 C492 102 510 104 528 114 Z" />
+                <path d="M530 108 C526 88 510 76 490 74 C508 84 520 96 526 112 Z" />
+                <path d="M530 108 C542 90 562 84 584 90 C562 92 546 100 534 114 Z" />
+                <path d="M530 108 C552 104 572 112 586 128 C566 118 550 114 532 114 Z" />
+              </g>
+            </svg>
+            <div class="sub" aria-live="polite">
+              <p class="sub-en" dir="ltr" lang="en">{{demo_en_1}}</p>
+              <p class="sub-tr" dir="rtl" lang="ar">{{demo_tr_1}}</p>
+            </div>
+          </div>
+          <div class="stand" aria-hidden="true"></div>
+        </figure>
+      </div>
+      <script type="application/json" id="demo">{{{demo_json}}}</script>
+    </section>
+
+    <!-- features -->
+    <section id="features" class="section">
+      <div class="wrap">
+        <h2>{{features_title}}</h2>
+        <p class="section-sub">{{features_sub}}</p>
+        <div class="cards">
+          <article class="card"><div class="big">{{f1_big}}</div><h3>{{f1_title}}</h3><p>{{f1_text}}</p></article>
+          <article class="card"><div class="big">{{f2_big}}</div><h3>{{f2_title}}</h3><p>{{f2_text}}</p></article>
+          <article class="card"><div class="big">{{f3_big}}</div><h3>{{f3_title}}</h3><p>{{f3_text}}</p></article>
+          <article class="card"><div class="big">{{f4_big}}</div><h3>{{f4_title}}</h3><p>{{f4_text}}</p></article>
+          <article class="card"><div class="big">{{f5_big}}</div><h3>{{f5_title}}</h3><p>{{f5_text}}</p></article>
+          <article class="card"><div class="big">{{f6_big}}</div><h3>{{f6_title}}</h3><p>{{f6_text}}</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- where it shows, and where it reads from -->
+    <section class="section alt">
+      <div class="wrap">
+        <h2>{{where_title}}</h2>
+        <p class="section-sub">{{where_sub}}</p>
+        <div class="places">
+          <div class="place"><span class="ico">🖥️</span><h3>{{w1_title}}</h3><p>{{w1_text}}</p></div>
+          <div class="place"><span class="ico">🎥</span><h3>{{w2_title}}</h3><p>{{w2_text}}</p></div>
+          <div class="place"><span class="ico">📺</span><h3>{{w3_title}}</h3><p>{{w3_text}}</p></div>
+          <div class="place"><span class="ico">📱</span><h3>{{w4_title}}</h3><p>{{w4_text}}</p></div>
+        </div>
+        <div class="sources">
+          <span class="sources-title">{{sources_title}}</span>
+          <span class="chip">{{src_1}}</span>
+          <span class="chip">{{src_2}}</span>
+          <span class="chip">{{src_3}}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- how it works -->
+    <section id="how" class="section">
+      <div class="wrap">
+        <h2>{{how_title}}</h2>
+        <p class="section-sub">{{how_sub}}</p>
+        <ol class="steps">
+          <li><span class="n">1</span><h3>{{s1_title}}</h3><p>{{s1_text}}</p></li>
+          <li><span class="n">2</span><h3>{{s2_title}}</h3><p>{{s2_text}}</p></li>
+          <li><span class="n">3</span><h3>{{s3_title}}</h3><p>{{s3_text}}</p></li>
+          <li><span class="n">4</span><h3>{{s4_title}}</h3><p>{{s4_text}}</p></li>
+        </ol>
+        <div class="langs">
+          <h3>{{langs_title}}</h3>
+          <p>{{langs_list}}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- setups: every way to play, step by step, with screenshots -->
+    <section id="setups" class="section alt">
+      <div class="wrap">
+        <h2>{{setups_title}}</h2>
+        <p class="section-sub">{{setups_sub}}</p>
+        <div class="tabs" role="tablist" hidden>
+          <button class="tab" role="tab" id="tab-sa" aria-controls="setup-sa" aria-selected="true">{{sa_tab}}</button>
+          <button class="tab" role="tab" id="tab-sb" aria-controls="setup-sb" aria-selected="false">{{sb_tab}}</button>
+          <button class="tab" role="tab" id="tab-sc" aria-controls="setup-sc" aria-selected="false">{{sc_tab}}</button>
+          <button class="tab" role="tab" id="tab-sd" aria-controls="setup-sd" aria-selected="false">{{sd_tab}}</button>
+          <button class="tab" role="tab" id="tab-se" aria-controls="setup-se" aria-selected="false">{{se_tab}}</button>
+          <button class="tab" role="tab" id="tab-sf" aria-controls="setup-sf" aria-selected="false">{{sf_tab}}</button>
+        </div>
+        <article class="setup" id="setup-sa" role="tabpanel" aria-labelledby="tab-sa">
+          <div class="setup-text">
+            <h3><span class="ico">🎮</span>{{sa_title}} <span class="badge">{{badge_recommended}}</span></h3>
+            <p class="setup-lead">{{sa_text}}</p>
+            <p class="setup-need"><strong>{{need}}:</strong> {{sa_need}}</p>
+            <ol class="setup-steps">
+              <li>{{sa_1}}</li>
+              <li>{{sa_2}}</li>
+              <li>{{sa_3}}</li>
+              <li>{{sa_4}}</li>
+            </ol>
+          </div>
+          <div class="setup-shots">
+            <figure class="shot wide"><a href="/img/app-capture.webp" target="_blank" rel="noopener"><img src="/img/app-capture.webp" alt="{{sa_shot_1}}" width="1600" height="940" loading="lazy" /></a><figcaption>{{sa_shot_1}}</figcaption></figure>
+            <figure class="shot wide"><a href="/img/app-translator.webp" target="_blank" rel="noopener"><img src="/img/app-translator.webp" alt="{{sa_shot_2}}" width="1600" height="940" loading="lazy" /></a><figcaption>{{sa_shot_2}}</figcaption></figure>
+          </div>
+        </article>
+        <article class="setup" id="setup-sb" role="tabpanel" aria-labelledby="tab-sb">
+          <div class="setup-text">
+            <h3><span class="ico">📺</span>{{sb_title}} <span class="badge">{{badge_best}}</span></h3>
+            <p class="setup-lead">{{sb_text}}</p>
+            <p class="setup-need"><strong>{{need}}:</strong> {{sb_need}}</p>
+            <ol class="setup-steps">
+              <li>{{sb_1}}</li>
+              <li>{{sb_2}}</li>
+              <li>{{sb_3}}</li>
+              <li>{{sb_4}}</li>
+            </ol>
+          </div>
+          <div class="setup-shots">
+            <figure class="shot wide"><a href="/img/tv-view.webp" target="_blank" rel="noopener"><img src="/img/tv-view.webp" alt="{{shot_illustration}}" width="1600" height="900" loading="lazy" /></a><figcaption>{{shot_illustration}}</figcaption></figure>
+            <figure class="shot"><a href="/img/tv-code.webp" target="_blank" rel="noopener"><img src="/img/tv-code.webp" alt="{{sb_shot_1}}" width="1280" height="720" loading="lazy" /></a><figcaption>{{sb_shot_1}}</figcaption></figure>
+            <figure class="shot"><a href="/img/app-tvconnect.webp" target="_blank" rel="noopener"><img src="/img/app-tvconnect.webp" alt="{{sb_shot_2}}" width="382" height="270" loading="lazy" /></a><figcaption>{{sb_shot_2}}</figcaption></figure>
+            <figure class="shot"><a href="/img/tv-connected.webp" target="_blank" rel="noopener"><img src="/img/tv-connected.webp" alt="{{sb_shot_3}}" width="1280" height="720" loading="lazy" /></a><figcaption>{{sb_shot_3}}</figcaption></figure>
+          </div>
+        </article>
+        <article class="setup" id="setup-sc" role="tabpanel" aria-labelledby="tab-sc">
+          <div class="setup-text">
+            <h3><span class="ico">📡</span>{{sc_title}} <span class="badge">{{badge_no_card}}</span></h3>
+            <p class="setup-lead">{{sc_text}}</p>
+            <p class="setup-need"><strong>{{need}}:</strong> {{sc_need}}</p>
+            <ol class="setup-steps">
+              <li>{{sc_1}}</li>
+              <li>{{sc_2}}</li>
+              <li>{{sc_3}}</li>
+            </ol>
+          </div>
+          <div class="setup-shots">
+            <figure class="shot wide"><a href="/img/app-remote.webp" target="_blank" rel="noopener"><img src="/img/app-remote.webp" alt="{{sc_shot_1}}" width="1600" height="940" loading="lazy" /></a><figcaption>{{sc_shot_1}}</figcaption></figure>
+          </div>
+        </article>
+        <article class="setup" id="setup-sd" role="tabpanel" aria-labelledby="tab-sd">
+          <div class="setup-text">
+            <h3><span class="ico">🖥️</span>{{sd_title}} </h3>
+            <p class="setup-lead">{{sd_text}}</p>
+            <p class="setup-need"><strong>{{need}}:</strong> {{sd_need}}</p>
+            <ol class="setup-steps">
+              <li>{{sd_1}}</li>
+              <li>{{sd_2}}</li>
+              <li>{{sd_3}}</li>
+            </ol>
+          </div>
+          <div class="setup-shots">
+            <figure class="shot wide"><a href="/img/app-play.webp" target="_blank" rel="noopener"><img src="/img/app-play.webp" alt="{{sd_shot_1}}" width="1600" height="940" loading="lazy" /></a><figcaption>{{sd_shot_1}}</figcaption></figure>
+          </div>
+        </article>
+        <article class="setup" id="setup-se" role="tabpanel" aria-labelledby="tab-se">
+          <div class="setup-text">
+            <h3><span class="ico">🎥</span>{{se_title}} <span class="badge">{{badge_streamers}}</span></h3>
+            <p class="setup-lead">{{se_text}}</p>
+            <p class="setup-need"><strong>{{need}}:</strong> {{se_need}}</p>
+            <ol class="setup-steps">
+              <li>{{se_1}}</li>
+              <li>{{se_2}}</li>
+              <li>{{se_3}}</li>
+            </ol>
+          </div>
+          <div class="setup-shots">
+            <figure class="shot"><a href="/img/app-obs.webp" target="_blank" rel="noopener"><img src="/img/app-obs.webp" alt="{{se_shot_1}}" width="382" height="368" loading="lazy" /></a><figcaption>{{se_shot_1}}</figcaption></figure>
+          </div>
+        </article>
+        <article class="setup" id="setup-sf" role="tabpanel" aria-labelledby="tab-sf">
+          <div class="setup-text">
+            <h3><span class="ico">📱</span>{{sf_title}} </h3>
+            <p class="setup-lead">{{sf_text}}</p>
+            <p class="setup-need"><strong>{{need}}:</strong> {{sf_need}}</p>
+            <ol class="setup-steps">
+              <li>{{sf_1}}</li>
+              <li>{{sf_2}}</li>
+              <li>{{sf_3}}</li>
+            </ol>
+          </div>
+          <div class="setup-shots">
+            <figure class="shot"><a href="/img/app-share.webp" target="_blank" rel="noopener"><img src="/img/app-share.webp" alt="{{sf_shot_1}}" width="382" height="316" loading="lazy" /></a><figcaption>{{sf_shot_1}}</figcaption></figure>
+            <figure class="shot"><a href="/img/phone.webp" target="_blank" rel="noopener"><img src="/img/phone.webp" alt="{{sf_shot_2}}" width="520" height="420" loading="lazy" /></a><figcaption>{{sf_shot_2}}</figcaption></figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- download -->
+    <section id="download" class="section">
+      <div class="wrap">
+        <h2>{{dl_title}}</h2>
+        <p class="section-sub">{{dl_sub}}</p>
+        <div class="downloads">
+          <a class="dl" href="https://github.com/vi-translator/vi-translator-desktop/releases/latest">
+            <span class="dl-os">{{dl_windows}}</span><span class="dl-note">{{dl_windows_note}}</span><span class="dl-go">{{dl_button}} →</span>
+          </a>
+          <a class="dl" href="https://github.com/vi-translator/vi-translator-desktop/releases/latest">
+            <span class="dl-os">{{dl_linux}}</span><span class="dl-note">{{dl_linux_note}}</span><span class="dl-go">{{dl_button}} →</span>
+          </a>
+          <a class="dl" href="https://github.com/vi-translator/vi-translator-desktop/releases/latest">
+            <span class="dl-os">{{dl_macos}}</span><span class="dl-note">{{dl_macos_note}}</span><span class="dl-go">{{dl_button}} →</span>
+          </a>
+        </div>
+        <h3 class="dl-tv-title">{{dl_tv_title}}</h3>
+        <div class="downloads small">
+          <div class="dl soon"><span class="dl-os">{{dl_tv_android}}</span><span class="dl-go">{{dl_soon}}</span></div>
+          <div class="dl soon"><span class="dl-os">{{dl_tv_lg}}</span><span class="dl-go">{{dl_soon}}</span></div>
+          <div class="dl soon"><span class="dl-os">{{dl_tv_samsung}}</span><span class="dl-go">{{dl_soon}}</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- privacy -->
+    <section class="section alt">
+      <div class="wrap narrow">
+        <h2>{{privacy_title}}</h2>
+        <p class="privacy">{{privacy_text}}</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="wrap narrow">
+        <h2>{{faq_title}}</h2>
+        <div class="faq">
+          <details><summary>{{q1}}</summary><p>{{a1}}</p></details>
+          <details><summary>{{q2}}</summary><p>{{a2}}</p></details>
+          <details><summary>{{q3}}</summary><p>{{a3}}</p></details>
+          <details><summary>{{q4}}</summary><p>{{a4}}</p></details>
+          <details><summary>{{q5}}</summary><p>{{a5}}</p></details>
+          <details><summary>{{q6}}</summary><p>{{a6}}</p></details>
+          <details><summary>{{q7}}</summary><p>{{a7}}</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- closing call -->
+    <section class="cta">
+      <div class="wrap">
+        <h2 class="sunset-text">{{cta_title}}</h2>
+        <a class="btn" href="#download">{{cta_button}}</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <a class="brand" href="{{path}}"><img src="/img/logo-256.png" alt="" width="28" height="28" /><span>VI Translator</span></a>
+        <a href="https://github.com/vi-translator/vi-translator-desktop">{{footer_github}}</a>
+      </div>
+      <p class="disclaimer">{{footer_disclaimer}}</p>
+{{{footer_langs}}}
+    </div>
+  </footer>
+
+  <script src="/main.js?v={{build}}" defer></script>
+</body>
+</html>

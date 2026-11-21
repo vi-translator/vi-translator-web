@@ -32,6 +32,7 @@
         <a href="#features">{{nav_features}}</a>
         <a href="#how">{{nav_how}}</a>
         <a href="#setups">{{nav_setups}}</a>
+        <a href="#phone">{{nav_phone}}</a>
         <a href="#faq">{{nav_faq}}</a>
       </nav>
       <div class="nav-end">
@@ -279,8 +280,37 @@
       </div>
     </section>
 
+    <!-- the phone app: a PS5 or Xbox read by the phone, the translations on the TV app, no PC -->
+    <section id="phone" class="section">
+      <div class="wrap">
+        <h2>{{ph_title}}</h2>
+        <p class="section-sub">{{ph_sub}}</p>
+        <article class="setup">
+          <div class="setup-text">
+            <div class="setup-col">
+              <h3><span class="ico">📱</span>{{ph_app_title}} <span class="badge">{{ph_badge}}</span></h3>
+              <p class="setup-need"><strong>{{need}}:</strong> {{ph_need}}</p>
+              <p class="setup-link"><a href="https://github.com/vi-translator/vi-translator-android/releases/latest/download/vi-translator-android-latest.apk" rel="noopener">VI Translator .apk →</a></p>
+              <div class="setup-tips"><strong>{{tips_title}}</strong><ul><li>{{ph_tip_1}}</li><li>{{ph_tip_2}}</li><li>{{ph_tip_3}}</li></ul></div>
+            </div>
+            <ol class="setup-steps">
+              <li>{{ph_1}}</li>
+              <li>{{ph_2}}</li>
+              <li>{{ph_3}}</li>
+              <li>{{ph_4}}</li>
+              <li>{{ph_5}}</li>
+            </ol>
+          </div>
+          <div class="setup-shots phone">
+            <figure class="shot"><a href="/img/phone-source.webp" target="_blank" rel="noopener"><img src="/img/phone-source.webp" alt="{{ph_shot_1}}" width="540" height="820" loading="lazy" /></a><figcaption>{{ph_shot_1}}</figcaption></figure>
+            <figure class="shot"><a href="/img/phone-play.webp" target="_blank" rel="noopener"><img src="/img/phone-play.webp" alt="{{ph_shot_2}}" width="540" height="820" loading="lazy" /></a><figcaption>{{ph_shot_2}}</figcaption></figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <!-- download -->
-    <section id="download" class="section">
+    <section id="download" class="section alt">
       <div class="wrap">
         <h2>{{dl_title}}</h2>
         <p class="section-sub">{{dl_sub}}</p>
@@ -293,6 +323,12 @@
           </a>
           <a class="dl" href="https://github.com/vi-translator/vi-translator-desktop/releases/latest">
             <span class="dl-os">{{dl_macos}}</span><span class="dl-note">{{dl_macos_note}}</span><span class="dl-go">{{dl_button}} →</span>
+          </a>
+        </div>
+        <h3 class="dl-tv-title">{{nav_phone}}</h3>
+        <div class="downloads small">
+          <a class="dl" href="https://github.com/vi-translator/vi-translator-android/releases/latest">
+            <span class="dl-os">{{dl_phone}}</span><span class="dl-note">{{dl_phone_note}}</span><span class="dl-go">{{dl_button}} →</span>
           </a>
         </div>
         <h3 class="dl-tv-title">{{dl_tv_title}}</h3>
@@ -311,7 +347,7 @@
     </section>
 
     <!-- privacy -->
-    <section class="section alt">
+    <section class="section">
       <div class="wrap narrow">
         <h2>{{privacy_title}}</h2>
         <p class="privacy">{{privacy_text}}</p>
@@ -319,7 +355,7 @@
     </section>
 
     <!-- FAQ -->
-    <section id="faq" class="section">
+    <section id="faq" class="section alt">
       <div class="wrap narrow">
         <h2>{{faq_title}}</h2>
         <div class="faq">
@@ -330,6 +366,7 @@
           <details><summary>{{q5}}</summary><p>{{a5}}</p></details>
           <details><summary>{{q6}}</summary><p>{{a6}}</p></details>
           <details><summary>{{q7}}</summary><p>{{a7}}</p></details>
+          <details><summary>{{q8}}</summary><p>{{a8}}</p></details>
         </div>
       </div>
     </section>

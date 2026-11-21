@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy policy · VI Translator</title>
-  <meta name="description" content="What VI Translator's desktop and TV apps send, and to whom." />
+  <meta name="description" content="What VI Translator's desktop, phone and TV apps send, and to whom." />
   <meta name="theme-color" content="#0f0b17" />
   <link rel="canonical" href="https://vitranslator.app/privacy/" />
   <link rel="icon" type="image/png" href="/favicon.png" />
@@ -26,8 +26,8 @@
       <p class="updated">Last updated: {{updated}}</p>
 
       <p>VI Translator is a free, open-source app that reads a game's subtitles and shows them
-        translated. This page covers the desktop app (Windows, macOS, Linux), the TV apps (Android TV,
-        LG webOS, Samsung Tizen) and this website. There are no accounts, no ads and no trackers.</p>
+        translated. This page covers the desktop app (Windows, macOS, Linux), the Android phone app, the TV
+        apps (Android TV, LG webOS, Samsung Tizen) and this website. There are no accounts, no ads and no trackers.</p>
 
       <h2>In short</h2>
       <ul>
@@ -35,7 +35,9 @@
           <em>Snapshot</em>'s picture when the service you chose for it reads pictures.</li>
         <li>The desktop app sends us nothing about you or what you play. Since version 1.3.1 it sends
           no game lines: it only downloads translations from us and new versions from GitHub.</li>
-        <li>The TV apps only talk to your own computer, on your home network.</li>
+        <li>The phone app sends us nothing about you or what you play either. It talks to your console,
+          to Sony or Microsoft when you sign in to play remotely, and to the translation service you choose.</li>
+        <li>The TV apps only talk to your own computer or phone, on your home network.</li>
         <li>We don't sell or share data, and we don't use it for advertising.</li>
       </ul>
 
@@ -66,13 +68,37 @@
       <p>If you turn on the phone page or the OBS overlay, the app serves the translations on your
         home network only, to devices that open the address it shows. Nothing goes over the internet.</p>
 
+      <h2>Android phone app</h2>
+      <p>The phone app plays your PS5 or Xbox over your home network with Remote Play, reads the game's
+        text on the phone, translates it and sends the translations to your TV. The game picture never
+        leaves the phone (except a <em>Snapshot</em>'s picture when the service you chose for it reads
+        pictures), and nothing about you or what you play is sent to us.</p>
+      <h3>PS5</h3>
+      <p>To link a PS5, you sign in to your PlayStation Network account on Sony's own sign-in page. The
+        app uses the answer only to read your PSN account ID, which the PS5 needs to allow Remote Play; it
+        keeps that ID and the console's link key on the phone, and keeps no password or Sony token. The
+        phone then talks to the PS5 directly on your home network, as Sony's Remote Play does.</p>
+      <h3>Xbox</h3>
+      <p>For an Xbox, the app opens Microsoft's own Remote Play player (play.xbox.com) inside the app. You
+        sign in there with your Microsoft account, under Microsoft's privacy policy; the sign-in stays in
+        the app's browser storage on the phone, and the app never sees your password. <em>Sign out</em>
+        in the app's Source tab clears it.</p>
+      <h3>Translations, updates and the TV</h3>
+      <p>The lines to translate go only to the translation service you choose, with your own key, as in
+        the desktop app; lines the translation memory knows are translated with the translation data
+        downloaded from vitranslator.app, on the phone. Your keys stay on the phone. The version from
+        GitHub checks GitHub about every 6 hours for a new version (the Google Play version is updated by
+        Google Play). The translations go to the TV apps you connect, and to the live page if you share it,
+        on your home network only.</p>
+
       <h2>TV apps</h2>
       <p>The Android TV, LG webOS and Samsung Tizen apps show the translations your computer sends
-        them over your home network. To pair, the TV shows a code that you type in the desktop app; the
-        TV then remembers that computer's address and a pairing token. The TV apps send nothing to us or
+        them over your home network, or that the phone app sends. To pair, the TV shows a code that you type
+        in the desktop or phone app; the TV then remembers that computer's or phone's address and a pairing
+        token. The TV apps send nothing to us or
         to anyone else, and collect nothing about what you watch. The input-source setting (show on one
         HDMI input) is read from the TV and stays on the TV. <em>Disconnect</em> on the TV, or removing
-        the TV in the desktop app, erases the pairing.</p>
+        the TV in the desktop or phone app, erases the pairing.</p>
 
       <h2>This website</h2>
       <p>vitranslator.app sets no cookies and runs no analytics. It is served through Cloudflare, which
@@ -97,8 +123,8 @@
 
       <h2>Your choices</h2>
       <ul>
-        <li>Everything the apps store stays on your devices: the TV apps' data goes when you uninstall
-          them, and the desktop app's data is in its folders (<em>Documents\VI Translator</em>, <em>Pictures\VI Translator</em>
+        <li>Everything the apps store stays on your devices: the phone and TV apps' data goes when you
+          uninstall them (or with <em>Clear storage</em> in Android's app settings), and the desktop app's data is in its folders (<em>Documents\VI Translator</em>, <em>Pictures\VI Translator</em>
           and the app's settings folder), which you can delete.</li>
         <li>Because the server stores no name, email or readable install ID, it can't tell which lines
           are yours. For any question or request, open an issue on

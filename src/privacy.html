@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy policy · VI Translator</title>
-  <meta name="description" content="What VI Translator's desktop and TV apps send, to whom, and how to turn it off." />
+  <meta name="description" content="What VI Translator's desktop and TV apps send, and to whom." />
   <meta name="theme-color" content="#0f0b17" />
   <link rel="canonical" href="https://vitranslator.app/privacy/" />
   <link rel="icon" type="image/png" href="/favicon.png" />
@@ -31,37 +31,31 @@
 
       <h2>In short</h2>
       <ul>
-        <li>The game picture and screenshots never leave your computer.</li>
-        <li>One feature sends data to us: <strong>Help improve translations</strong>. It sends the
-          English game lines you saw, with a random install ID. It is on by default and you can turn it
-          off.</li>
+        <li>The game picture and screenshots never leave your computer, except a
+          <em>Snapshot</em>'s picture when the service you chose for it reads pictures.</li>
+        <li>The desktop app sends us nothing about you or what you play. Since version 1.3.1 it sends
+          no game lines: it only downloads translations from us and new versions from GitHub.</li>
         <li>The TV apps only talk to your own computer, on your home network.</li>
         <li>We don't sell or share data, and we don't use it for advertising.</li>
       </ul>
 
       <h2>Desktop app</h2>
-      <h3>Help improve translations (on by default)</h3>
-      <p>Every few minutes, the app sends the English lines it read on screen (subtitles, instructions,
-        captions) to our server at vitranslator.app, so they can be translated better for everyone.
-        Each batch includes:</p>
-      <ul>
-        <li>the lines themselves, and which game they are from;</li>
-        <li>whether one of that game's own screens was seen while playing (so lines from other
-          programs can be told apart);</li>
-        <li>a random install ID made by the app when it was first started. It isn't linked to your
-          name, email or device, and the server stores only a one-way hash of it.</li>
-      </ul>
-      <p>It never sends menus (where player and friend names appear), screenshots, the game picture
-        or any account names. Lines seen while the picture looks like a
-        different game are not sent. Turn it off in the app (<em>Translator</em> tab) and nothing more is
-        sent.</p>
+      <h3>Game lines (no longer sent)</h3>
+      <p>Since version 1.3.1, the app sends no game lines to our server, and nothing else about you
+        or what you play. The text it reads on screen stays on your computer, except what goes to the
+        translation service you choose (below).</p>
+      <p>Earlier versions had a <em>Help improve translations</em> feature that sent the English lines
+        read on screen (subtitles, instructions, captions) to vitranslator.app. That feature is gone.
+        The lines collected before are kept on the server to build translations, stored only with a
+        one-way hash of a random install ID: no readable install ID and no names.</p>
 
       <h3>Translation services you choose</h3>
       <p>The app translates on your computer by default. The first time, it downloads the translation
         model from Hugging Face (huggingface.co); after that it works offline. If you choose an online service instead (such
         as DeepL, Google, Microsoft Azure, LibreTranslate, Claude or ChatGPT) and enter your own key for it, the
         lines to translate go straight from your computer to that service, under its own privacy policy.
-        Your keys are stored encrypted on your computer and are never sent to us.</p>
+        If the service you choose for <em>Snapshot</em> reads pictures, the Snapshot's picture goes to it
+        the same way. Your keys are stored encrypted on your computer and are never sent to us.</p>
 
       <h3>Updates and game data</h3>
       <p>The app checks GitHub about once an hour for a new version, and downloads game information
@@ -87,10 +81,11 @@
 
       <h2>What the server keeps, and for how long</h2>
       <ul>
-        <li><strong>Game lines</strong> sent by <em>Help improve translations</em>: kept to build and
-          review translations. They are game text, not personal data.</li>
-        <li><strong>Install ID hashes</strong>: kept with the lines, to limit how much one install can
-          send and to block abuse.</li>
+        <li><strong>Game lines</strong> collected by <em>Help improve translations</em> before version
+          1.3.1: kept to build and review translations. They are game text, not personal data. No new
+          lines are collected.</li>
+        <li><strong>Install ID hashes</strong>: kept with those lines. No readable install IDs and no
+          names are stored.</li>
         <li><strong>IP addresses</strong>: used in memory only, to limit how many requests one address
           can make per hour; never stored in the database. The web server's standard access logs, which
           include IP addresses, are deleted after 14 days.</li>
@@ -102,7 +97,6 @@
 
       <h2>Your choices</h2>
       <ul>
-        <li>Turn off <em>Help improve translations</em> in the desktop app's <em>Translator</em> tab.</li>
         <li>Everything the apps store stays on your devices: the TV apps' data goes when you uninstall
           them, and the desktop app's data is in its folders (<em>Documents\VI Translator</em>, <em>Pictures\VI Translator</em>
           and the app's settings folder), which you can delete.</li>

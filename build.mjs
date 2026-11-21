@@ -116,7 +116,7 @@ ${items}
 }
 
 // the privacy policy (English only), at /privacy/
-const UPDATED = "18 November 2026";
+const UPDATED = "21 November 2026";
 mkdirSync("dist/privacy", { recursive: true });
 writeFileSync("dist/privacy/index.html", versioned(readFileSync("src/privacy.html", "utf8")
   .replace(/\{\{build\}\}/g, build).replace(/\{\{updated\}\}/g, UPDATED)));

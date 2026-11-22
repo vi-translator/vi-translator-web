@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 ও ARM। WebKitGTK 4.1 ও Tesseract (ইংরেজি) লাগবে।",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon। এখনো Mac-এ পরীক্ষা করা হয়নি।",
+  "dl_macos_note": "Apple silicon ও Intel (Intel-এ বিনামূল্যের অফলাইন অনুবাদক নেই)। এখনো Mac-এ পরীক্ষা করা হয়নি।",
   "dl_button": "সর্বশেষ রিলিজ",
   "dl_tv_title": "টিভি অ্যাপ",
   "dl_tv_android": "Android TV ও Google TV",

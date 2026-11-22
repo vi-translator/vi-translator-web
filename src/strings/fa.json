@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 و ARM. به WebKitGTK 4.1 و Tesseract (انگلیسی) نیاز دارد.",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon. هنوز روی Mac آزمایش نشده است.",
+  "dl_macos_note": "Apple silicon و Intel (در Intel بدون مترجم آفلاین رایگان). هنوز روی Mac آزمایش نشده است.",
   "dl_button": "آخرین انتشار",
   "dl_tv_title": "برنامه‌های تلویزیون",
   "dl_tv_android": "Android TV و Google TV",

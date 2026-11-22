@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 وARM. يحتاج إلى WebKitGTK 4.1 وTesseract (الإنجليزية).",
   "dl_macos": "macOS",
-  "dl_macos_note": "معالجات Apple. لم يُجرَّب على Mac بعد.",
+  "dl_macos_note": "معالجات Apple وIntel (نسخة Intel بلا المترجم المجاني دون اتصال). لم يُجرَّب على Mac بعد.",
   "dl_button": "أحدث إصدار",
   "dl_tv_title": "تطبيقات التلفاز",
   "dl_tv_android": "Android TV وGoogle TV",

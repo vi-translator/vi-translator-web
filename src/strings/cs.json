@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 a ARM. Vyžaduje WebKitGTK 4.1 a Tesseract (angličtina).",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon. Na Macu zatím netestováno.",
+  "dl_macos_note": "Apple silicon a Intel (na Intelu bez bezplatného offline překladače). Na Macu zatím netestováno.",
   "dl_button": "Nejnovější vydání",
   "dl_tv_title": "Aplikace pro TV",
   "dl_tv_android": "Android TV a Google TV",

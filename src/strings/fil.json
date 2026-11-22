@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 at ARM. Kailangan ng WebKitGTK 4.1 at Tesseract (Ingles).",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon. Hindi pa nasusubukan sa Mac.",
+  "dl_macos_note": "Apple silicon at Intel (sa Intel, walang libreng offline translator). Hindi pa nasusubukan sa Mac.",
   "dl_button": "Pinakabagong release",
   "dl_tv_title": "Mga TV app",
   "dl_tv_android": "Android TV at Google TV",

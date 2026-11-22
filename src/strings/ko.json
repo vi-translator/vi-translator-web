@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 및 ARM. WebKitGTK 4.1과 Tesseract(영어)가 필요합니다.",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon. 아직 Mac에서 테스트되지 않았습니다.",
+  "dl_macos_note": "Apple silicon 및 Intel (Intel에서는 무료 오프라인 번역기 없음). 아직 Mac에서 테스트되지 않았습니다.",
   "dl_button": "최신 릴리스",
   "dl_tv_title": "TV 앱",
   "dl_tv_android": "Android TV 및 Google TV",

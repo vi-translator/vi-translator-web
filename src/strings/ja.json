@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 と ARM。WebKitGTK 4.1 と Tesseract（英語）が必要です。",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon と Intel（Intel 版は無料のオフライン翻訳なし）。Mac での動作はまだ未検証です。",
+  "dl_macos_note": "macOS 11 以降：Apple silicon と Intel 用のアプリを含む .dmg（Intel 版は無料のオフライン翻訳なし）。Mac での動作はまだ未検証です。",
   "dl_button": "最新リリース",
   "dl_tv_title": "テレビアプリ",
   "dl_tv_android": "Android TV と Google TV",

@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64, ARM. WebKitGTK 4.1, Tesseract (ఇంగ్లీష్) అవసరం.",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon మరియు Intel (Intelలో ఉచిత ఆఫ్‌లైన్ అనువాదకుడు లేదు). ఇంకా Macలో టెస్ట్ చేయలేదు.",
+  "dl_macos_note": "macOS 11 లేదా కొత్తది: Apple silicon మరియు Intel కోసం యాప్ ఉన్న .dmg (Intelలో ఉచిత ఆఫ్‌లైన్ అనువాదకుడు లేదు). ఇంకా Macలో టెస్ట్ చేయలేదు.",
   "dl_button": "తాజా రిలీజ్",
   "dl_tv_title": "టీవీ యాప్‌లు",
   "dl_tv_android": "Android TV, Google TV",

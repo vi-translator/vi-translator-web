@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 și ARM. Necesită WebKitGTK 4.1 și Tesseract (engleză).",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon și Intel (pe Intel fără traducătorul offline gratuit). Încă netestat pe un Mac.",
+  "dl_macos_note": "macOS 11 sau mai nou: un .dmg cu aplicația pentru Apple silicon și Intel (pe Intel fără traducătorul offline gratuit). Încă netestat pe un Mac.",
   "dl_button": "Cea mai recentă versiune",
   "dl_tv_title": "Aplicații pentru televizor",
   "dl_tv_android": "Android TV și Google TV",

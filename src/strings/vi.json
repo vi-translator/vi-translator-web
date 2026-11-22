@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 và ARM. Cần WebKitGTK 4.1 và Tesseract (tiếng Anh).",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon và Intel (trên Intel không có trình dịch ngoại tuyến miễn phí). Chưa được thử trên Mac.",
+  "dl_macos_note": "macOS 11 trở lên: tệp .dmg chứa ứng dụng cho Apple silicon và Intel (trên Intel không có trình dịch ngoại tuyến miễn phí). Chưa được thử trên Mac.",
   "dl_button": "Bản phát hành mới nhất",
   "dl_tv_title": "Ứng dụng TV",
   "dl_tv_android": "Android TV và Google TV",

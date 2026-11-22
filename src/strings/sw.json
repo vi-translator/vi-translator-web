@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 na ARM. Inahitaji WebKitGTK 4.1 na Tesseract (Kiingereza).",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon na Intel (kwenye Intel bila mtafsiri wa bure nje ya mtandao). Bado haijajaribiwa kwenye Mac.",
+  "dl_macos_note": "macOS 11 au mpya zaidi: .dmg yenye programu kwa Apple silicon na Intel (kwenye Intel bila mtafsiri wa bure nje ya mtandao). Bado haijajaribiwa kwenye Mac.",
   "dl_button": "Toleo la hivi karibuni",
   "dl_tv_title": "Programu za TV",
   "dl_tv_android": "Android TV na Google TV",

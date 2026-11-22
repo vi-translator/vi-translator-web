@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 اور ARM۔ WebKitGTK 4.1 اور Tesseract (انگریزی) درکار ہیں۔",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon اور Intel (Intel پر مفت آف لائن مترجم نہیں)۔ ابھی Mac پر ٹیسٹ نہیں کیا گیا۔",
+  "dl_macos_note": "macOS 11 یا نیا: Apple silicon اور Intel کے لیے ایپ والی ایک ‎.dmg‎ (Intel پر مفت آف لائن مترجم نہیں)۔ ابھی Mac پر ٹیسٹ نہیں کیا گیا۔",
   "dl_button": "تازہ ترین ریلیز",
   "dl_tv_title": "ٹی وی ایپس",
   "dl_tv_android": "Android TV اور Google TV",

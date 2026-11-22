@@ -70,7 +70,7 @@
   "dl_linux": "Linux",
   "dl_linux_note": "x64 和 ARM。需要 WebKitGTK 4.1 和 Tesseract（英文）。",
   "dl_macos": "macOS",
-  "dl_macos_note": "Apple silicon 和 Intel（Intel 版沒有免費的離線翻譯器）。尚未在 Mac 上測試。",
+  "dl_macos_note": "macOS 11 或更新版本：包含適用於 Apple silicon 和 Intel 的應用程式的 .dmg（Intel 版沒有免費的離線翻譯器）。尚未在 Mac 上測試。",
   "dl_button": "最新版本",
   "dl_tv_title": "電視應用程式",
   "dl_tv_android": "Android TV 和 Google TV",

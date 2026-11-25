@@ -205,6 +205,9 @@
   "ph_shot_2": "Kichupo cha Cheza: anza kutafsiri, kisha mchezo na tafsiri zake zinaonekana hapa",
   "dl_phone": "Simu au tableti ya Android",
   "dl_phone_note": "Android 8 au mpya zaidi. Huhitaji PC.",
+  "dl_iphone": "iPhone na iPad",
+  "dl_iphone_note": "iOS 16 au mpya zaidi, toleo la majaribio kupitia TestFlight ya Apple. Hakuna PC inayohitajika.",
+  "dl_testflight": "Jiunge kwenye TestFlight",
   "q8": "Je, naweza kuitumia bila PC?",
   "a8": "Ndiyo, ukiwa na PS5 au Xbox: programu ya simu ya Android husoma mchezo kupitia Remote Play, na programu ya TV huonyesha tafsiri juu ya mchezo. Tazama Programu ya simu hapo juu."
 }

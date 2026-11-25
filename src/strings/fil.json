@@ -205,6 +205,9 @@
   "ph_shot_2": "Tab na Laro: simulan ang pagsasalin, at dito lalabas ang laro at ang mga salin nito",
   "dl_phone": "Android phone o tablet",
   "dl_phone_note": "Android 8 o mas bago. Hindi kailangan ng PC.",
+  "dl_iphone": "iPhone at iPad",
+  "dl_iphone_note": "iOS 16 o mas bago, beta sa TestFlight ng Apple. Walang PC na kailangan.",
+  "dl_testflight": "Sumali sa TestFlight",
   "q8": "Magagamit ko ba ito nang walang PC?",
   "a8": "Oo, gamit ang PS5 o Xbox: binabasa ng Android phone app ang laro gamit ang Remote Play, at ipinapakita ng TV app ang mga salin sa ibabaw ng laro. Tingnan ang Phone app sa itaas."
 }

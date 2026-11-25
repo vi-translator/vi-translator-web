@@ -205,6 +205,9 @@
   "ph_shot_2": "プレイタブ: 翻訳を開始すると、ゲームとその翻訳がここに表示されます",
   "dl_phone": "Android スマホ・タブレット",
   "dl_phone_note": "Android 8 以降。PC は不要です。",
+  "dl_iphone": "iPhone・iPad",
+  "dl_iphone_note": "iOS 16 以降。Apple の TestFlight によるベータ版です。PC は不要です。",
+  "dl_testflight": "TestFlight で参加",
   "q8": "PC なしでも使えますか？",
   "a8": "はい、PS5 または Xbox なら使えます。Android のスマホアプリが Remote Play でゲームを読み取り、テレビアプリが翻訳をゲームの上に表示します。上の「スマホアプリ」をご覧ください。"
 }

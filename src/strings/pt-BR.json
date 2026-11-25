@@ -205,6 +205,9 @@
   "ph_shot_2": "Aba Jogar: comece a traduzir e o jogo e as traduções aparecem aqui",
   "dl_phone": "Celular ou tablet Android",
   "dl_phone_note": "Android 8 ou mais recente. Não precisa de PC.",
+  "dl_iphone": "iPhone e iPad",
+  "dl_iphone_note": "iOS 16 ou mais recente, em beta pelo TestFlight da Apple. Sem PC.",
+  "dl_testflight": "Entrar pelo TestFlight",
   "q8": "Posso usar sem PC?",
   "a8": "Sim, com um PS5 ou Xbox: o app Android para celular lê o jogo pelo Remote Play, e o app de TV mostra as traduções sobre o jogo. Veja App para celular acima."
 }

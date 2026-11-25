@@ -205,6 +205,9 @@
   "ph_shot_2": "Fila Joacă: pornește traducerea, apoi jocul și traducerile lui apar aici",
   "dl_phone": "Telefon sau tabletă Android",
   "dl_phone_note": "Android 8 sau mai nou. Nu ai nevoie de PC.",
+  "dl_iphone": "iPhone și iPad",
+  "dl_iphone_note": "iOS 16 sau mai nou, beta prin TestFlight de la Apple. Fără PC.",
+  "dl_testflight": "Alătură-te pe TestFlight",
   "q8": "Îl pot folosi fără PC?",
   "a8": "Da, cu un PS5 sau Xbox: aplicația Android pentru telefon citește jocul prin Remote Play, iar aplicația TV afișează traducerile peste joc. Vezi Aplicația de telefon mai sus."
 }

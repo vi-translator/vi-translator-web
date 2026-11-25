@@ -205,6 +205,9 @@
   "ph_shot_2": "遊玩分頁: 開始翻譯後，遊戲和譯文會顯示在這裡",
   "dl_phone": "Android 手機或平板",
   "dl_phone_note": "Android 8 或更新版本。不需要電腦。",
+  "dl_iphone": "iPhone 與 iPad",
+  "dl_iphone_note": "iOS 16 或更新版本，透過 Apple 的 TestFlight 提供測試版。不需要電腦。",
+  "dl_testflight": "在 TestFlight 加入",
   "q8": "不用電腦也能用嗎？",
   "a8": "可以，搭配 PS5 或 Xbox：Android 手機應用程式透過 Remote Play 讀取遊戲畫面，電視應用程式將譯文顯示在遊戲畫面上。請看上方的「手機應用程式」。"
 }

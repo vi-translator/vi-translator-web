@@ -205,6 +205,9 @@
   "ph_shot_2": "Thẻ Chơi: bắt đầu dịch, rồi trò chơi và bản dịch hiện ở đây",
   "dl_phone": "Điện thoại hoặc máy tính bảng Android",
   "dl_phone_note": "Android 8 trở lên. Không cần PC.",
+  "dl_iphone": "iPhone và iPad",
+  "dl_iphone_note": "iOS 16 trở lên, bản beta qua TestFlight của Apple. Không cần PC.",
+  "dl_testflight": "Tham gia trên TestFlight",
   "q8": "Tôi có thể dùng mà không cần PC không?",
   "a8": "Có, với PS5 hoặc Xbox: ứng dụng điện thoại Android đọc game qua Remote Play, và ứng dụng TV hiển thị bản dịch ngay trên game. Xem mục Ứng dụng điện thoại ở trên."
 }

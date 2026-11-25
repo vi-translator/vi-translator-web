@@ -205,6 +205,9 @@
   "ph_shot_2": "Tab Spielen: Übersetzen starten, dann erscheinen hier das Spiel und seine Übersetzungen",
   "dl_phone": "Android-Handy oder -Tablet",
   "dl_phone_note": "Android 8 oder neuer. Kein PC nötig.",
+  "dl_iphone": "iPhone und iPad",
+  "dl_iphone_note": "iOS 16 oder neuer, als Beta über Apples TestFlight. Kein PC nötig.",
+  "dl_testflight": "Über TestFlight beitreten",
   "q8": "Kann ich es ohne PC nutzen?",
   "a8": "Ja, mit einer PS5 oder Xbox: Die Android-Handy-App liest das Spiel per Remote Play, und die TV-App zeigt die Übersetzungen über dem Spiel. Siehe Handy-App oben."
 }

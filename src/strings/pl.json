@@ -205,6 +205,9 @@
   "ph_shot_2": "Karta Graj: zacznij tłumaczyć, a gra i jej tłumaczenia pojawią się tutaj",
   "dl_phone": "Telefon lub tablet z Androidem",
   "dl_phone_note": "Android 8 lub nowszy. PC niepotrzebny.",
+  "dl_iphone": "iPhone i iPad",
+  "dl_iphone_note": "iOS 16 lub nowszy, wersja beta przez TestFlight od Apple. Bez komputera.",
+  "dl_testflight": "Dołącz przez TestFlight",
   "q8": "Czy mogę go używać bez PC?",
   "a8": "Tak, z PS5 lub Xbox: aplikacja na telefon z Androidem odczytuje grę przez Remote Play, a aplikacja na telewizor pokazuje tłumaczenia na obrazie gry. Zobacz „Aplikacja na telefon” powyżej."
 }

@@ -205,6 +205,9 @@
   "ph_shot_2": "游玩标签页: 开始翻译后，游戏和译文会显示在这里",
   "dl_phone": "Android 手机或平板",
   "dl_phone_note": "Android 8 或更新版本。无需 PC。",
+  "dl_iphone": "iPhone 和 iPad",
+  "dl_iphone_note": "iOS 16 或更高版本，通过 Apple 的 TestFlight 提供测试版。无需电脑。",
+  "dl_testflight": "在 TestFlight 加入",
   "q8": "不用 PC 也能用吗？",
   "a8": "可以，搭配 PS5 或 Xbox：Android 手机应用通过 Remote Play 读取游戏画面，电视应用把译文显示在游戏画面上。请看上方的“手机应用”。"
 }

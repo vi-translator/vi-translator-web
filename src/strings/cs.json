@@ -205,6 +205,9 @@
   "ph_shot_2": "Karta Hrát: spusťte překlad a hra se svými překlady se ukáže tady",
   "dl_phone": "Telefon nebo tablet s Androidem",
   "dl_phone_note": "Android 8 nebo novější. PC není potřeba.",
+  "dl_iphone": "iPhone a iPad",
+  "dl_iphone_note": "iOS 16 nebo novější, beta přes Apple TestFlight. Bez počítače.",
+  "dl_testflight": "Připojit se přes TestFlight",
   "q8": "Můžu to používat bez PC?",
   "a8": "Ano, s PS5 nebo Xboxem: aplikace pro telefon s Androidem čte hru přes Remote Play a aplikace pro TV zobrazuje překlady přes hru. Viz Aplikace pro telefon výše."
 }

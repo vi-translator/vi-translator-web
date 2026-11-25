@@ -205,6 +205,9 @@
   "ph_shot_2": "플레이 탭: 번역을 시작하면 게임과 번역이 여기에 표시됩니다",
   "dl_phone": "Android 휴대폰 또는 태블릿",
   "dl_phone_note": "Android 8 이상. PC가 필요 없습니다.",
+  "dl_iphone": "iPhone 및 iPad",
+  "dl_iphone_note": "iOS 16 이상, Apple TestFlight 베타. PC가 필요 없습니다.",
+  "dl_testflight": "TestFlight에서 참여",
   "q8": "PC 없이 사용할 수 있나요?",
   "a8": "네, PS5나 Xbox라면 가능합니다. Android 휴대폰 앱이 Remote Play로 게임을 읽고, TV 앱이 게임 위에 번역을 표시합니다. 위의 휴대폰 앱 항목을 참고하세요."
 }

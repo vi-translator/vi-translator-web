@@ -205,6 +205,9 @@
   "ph_shot_2": "Tab Spelen: start het vertalen, dan verschijnen hier de game en de vertalingen",
   "dl_phone": "Android-telefoon of -tablet",
   "dl_phone_note": "Android 8 of nieuwer. Geen pc nodig.",
+  "dl_iphone": "iPhone en iPad",
+  "dl_iphone_note": "iOS 16 of nieuwer, als bèta via TestFlight van Apple. Geen pc nodig.",
+  "dl_testflight": "Meedoen via TestFlight",
   "q8": "Kan ik het zonder pc gebruiken?",
   "a8": "Ja, met een PS5 of Xbox: de Android-telefoonapp leest het spel via Remote Play en de tv-app toont de vertalingen over het spel. Zie Telefoonapp hierboven."
 }

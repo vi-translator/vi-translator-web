@@ -205,6 +205,9 @@
   "ph_shot_2": "Scheda Gioca: avvia la traduzione, poi qui compaiono il gioco e le sue traduzioni",
   "dl_phone": "Telefono o tablet Android",
   "dl_phone_note": "Android 8 o successivo. Nessun PC necessario.",
+  "dl_iphone": "iPhone e iPad",
+  "dl_iphone_note": "iOS 16 o successivo, in beta con TestFlight di Apple. Nessun PC.",
+  "dl_testflight": "Partecipa su TestFlight",
   "q8": "Posso usarlo senza PC?",
   "a8": "Sì, con una PS5 o Xbox: l'app Android per telefono legge il gioco tramite Remote Play e l'app TV mostra le traduzioni sopra il gioco. Vedi App per telefono qui sopra."
 }

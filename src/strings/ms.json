@@ -205,6 +205,9 @@
   "ph_shot_2": "Tab Main: mula menterjemah, kemudian permainan dan terjemahannya dipaparkan di sini",
   "dl_phone": "Telefon atau tablet Android",
   "dl_phone_note": "Android 8 atau lebih baharu. Tidak perlu PC.",
+  "dl_iphone": "iPhone dan iPad",
+  "dl_iphone_note": "iOS 16 atau lebih baharu, beta melalui TestFlight Apple. Tiada PC diperlukan.",
+  "dl_testflight": "Sertai di TestFlight",
   "q8": "Bolehkah saya menggunakannya tanpa PC?",
   "a8": "Ya, dengan PS5 atau Xbox: aplikasi telefon Android membaca permainan melalui Remote Play, dan aplikasi TV memaparkan terjemahan di atas permainan. Lihat Aplikasi telefon di atas."
 }

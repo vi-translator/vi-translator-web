@@ -205,6 +205,9 @@
   "ph_shot_2": "Oyna sekmesi: çeviriyi başlatın, oyun ve çevirileri burada görünür",
   "dl_phone": "Android telefon ya da tablet",
   "dl_phone_note": "Android 8 veya daha yeni. PC gerekmez.",
+  "dl_iphone": "iPhone ve iPad",
+  "dl_iphone_note": "iOS 16 veya üstü, Apple'ın TestFlight'ı üzerinden beta. PC gerekmez.",
+  "dl_testflight": "TestFlight'ta katıl",
   "q8": "PC olmadan kullanabilir miyim?",
   "a8": "Evet, PS5 ya da Xbox ile: Android telefon uygulaması oyunu Remote Play üzerinden okur, TV uygulaması da çevirileri oyunun üzerinde gösterir. Yukarıdaki Telefon uygulaması bölümüne bak."
 }

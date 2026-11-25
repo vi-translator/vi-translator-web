@@ -205,6 +205,9 @@
   "ph_shot_2": "Pestaña Jugar: empieza a traducir y aquí verás el juego y sus traducciones",
   "dl_phone": "Móvil o tableta Android",
   "dl_phone_note": "Android 8 o posterior. No necesitas PC.",
+  "dl_iphone": "iPhone y iPad",
+  "dl_iphone_note": "iOS 16 o posterior, en beta con TestFlight de Apple. Sin PC.",
+  "dl_testflight": "Unirse en TestFlight",
   "q8": "¿Puedo usarlo sin PC?",
   "a8": "Sí, con una PS5 o Xbox: la app para móviles Android lee el juego mediante Remote Play, y la app de la tele muestra las traducciones sobre el juego. Consulta App para el móvil más arriba."
 }

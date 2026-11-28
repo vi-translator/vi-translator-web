@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 trở lên, bản beta qua TestFlight của Apple. Không cần PC.",
   "dl_testflight": "Tham gia trên TestFlight",
   "q8": "Tôi có thể dùng mà không cần PC không?",
-  "a8": "Có, với PS5 hoặc Xbox: ứng dụng điện thoại Android đọc game qua Remote Play, và ứng dụng TV hiển thị bản dịch ngay trên game. Xem mục Ứng dụng điện thoại ở trên."
+  "a8": "Có, với PS5 hoặc Xbox: ứng dụng điện thoại Android đọc game qua Remote Play, và ứng dụng TV hiển thị bản dịch ngay trên game. Xem mục Ứng dụng điện thoại ở trên.",
+  "guides_title": "Mọi cách thiết lập trong một hình",
+  "guides_sub": "Tìm cách giống với của bạn, rồi lưu lại hoặc chia sẻ. Chạm vào hình để mở kích thước đầy đủ.",
+  "guide_0": "7 cách chơi bằng ngôn ngữ của bạn",
+  "guide_1": "Chỉ điện thoại hoặc máy tính bảng",
+  "guide_2": "Điện thoại + ứng dụng TV",
+  "guide_3": "Điện thoại + TV bất kỳ",
+  "guide_4": "PC + màn hình",
+  "guide_5": "PC + ứng dụng TV",
+  "guide_6": "PC + TV bất kỳ",
+  "guide_7": "Stream và gọi"
 }

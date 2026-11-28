@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 或更高版本，通过 Apple 的 TestFlight 提供测试版。无需电脑。",
   "dl_testflight": "在 TestFlight 加入",
   "q8": "不用 PC 也能用吗？",
-  "a8": "可以，搭配 PS5 或 Xbox：Android 手机应用通过 Remote Play 读取游戏画面，电视应用把译文显示在游戏画面上。请看上方的“手机应用”。"
+  "a8": "可以，搭配 PS5 或 Xbox：Android 手机应用通过 Remote Play 读取游戏画面，电视应用把译文显示在游戏画面上。请看上方的“手机应用”。",
+  "guides_title": "每种设置，一图看懂",
+  "guides_sub": "找到适合你的那一种，保存或分享都行。点按图片可查看原图。",
+  "guide_0": "7 种方式，用你的语言玩",
+  "guide_1": "仅用手机或平板",
+  "guide_2": "手机 + 电视应用",
+  "guide_3": "手机 + 任意电视",
+  "guide_4": "PC + 显示器",
+  "guide_5": "PC + 电视应用",
+  "guide_6": "PC + 任意电视",
+  "guide_7": "直播与通话"
 }

@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 oder neuer, als Beta über Apples TestFlight. Kein PC nötig.",
   "dl_testflight": "Über TestFlight beitreten",
   "q8": "Kann ich es ohne PC nutzen?",
-  "a8": "Ja, mit einer PS5 oder Xbox: Die Android-Handy-App liest das Spiel per Remote Play, und die TV-App zeigt die Übersetzungen über dem Spiel. Siehe Handy-App oben."
+  "a8": "Ja, mit einer PS5 oder Xbox: Die Android-Handy-App liest das Spiel per Remote Play, und die TV-App zeigt die Übersetzungen über dem Spiel. Siehe Handy-App oben.",
+  "guides_title": "Jedes Setup als Bild",
+  "guides_sub": "Such dir das passende Setup aus und speichere oder teile das Bild. Tippe auf ein Bild, um es in voller Größe zu öffnen.",
+  "guide_0": "7 Wege, in deiner Sprache zu spielen",
+  "guide_1": "Nur Handy oder Tablet",
+  "guide_2": "Handy + TV-App",
+  "guide_3": "Handy + jeder Fernseher",
+  "guide_4": "PC + Monitor",
+  "guide_5": "PC + TV-App",
+  "guide_6": "PC + jeder Fernseher",
+  "guide_7": "Streaming und Anrufe"
 }

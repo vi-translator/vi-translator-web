@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 o mas bago, beta sa TestFlight ng Apple. Walang PC na kailangan.",
   "dl_testflight": "Sumali sa TestFlight",
   "q8": "Magagamit ko ba ito nang walang PC?",
-  "a8": "Oo, gamit ang PS5 o Xbox: binabasa ng Android phone app ang laro gamit ang Remote Play, at ipinapakita ng TV app ang mga salin sa ibabaw ng laro. Tingnan ang Phone app sa itaas."
+  "a8": "Oo, gamit ang PS5 o Xbox: binabasa ng Android phone app ang laro gamit ang Remote Play, at ipinapakita ng TV app ang mga salin sa ibabaw ng laro. Tingnan ang Phone app sa itaas.",
+  "guides_title": "Bawat setup sa isang larawan",
+  "guides_sub": "Hanapin ang tugma sa setup mo, saka i-save o i-share. I-tap ang larawan para buksan ito sa buong laki.",
+  "guide_0": "7 paraan para maglaro sa wika mo",
+  "guide_1": "Phone o tablet lang",
+  "guide_2": "Phone + TV app",
+  "guide_3": "Phone + kahit anong TV",
+  "guide_4": "PC + monitor",
+  "guide_5": "PC + TV app",
+  "guide_6": "PC + kahit anong TV",
+  "guide_7": "Streaming at mga tawag"
 }

@@ -149,6 +149,14 @@ h3 { font-size: 21px; font-weight: 700; }
 .sources-title { color: var(--muted); font-weight: 700; margin-inline-end: 6px; }
 .chip { padding: 6px 16px; border-radius: 999px; border: 1px solid rgba(62, 240, 216, .45); color: var(--neon); font-weight: 600; font-size: 16px; }
 
+/* every setup as a picture (square infographics, in the page's language) */
+.guides { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 40px; }
+.guide { margin: 0; }
+.guide a { display: block; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 18px 44px -20px rgba(0, 0, 0, .9); transition: transform .15s, border-color .15s, box-shadow .15s; }
+.guide a:hover { transform: translateY(-3px); border-color: rgba(255, 90, 165, .6); box-shadow: 0 22px 50px -18px rgba(255, 90, 165, .45); }
+.guide img { width: 100%; aspect-ratio: 1; background: #0b0812; }
+.guide figcaption { color: var(--muted); font-size: 15px; margin-top: 8px; text-align: center; line-height: 1.35; }
+@media (max-width: 960px) { .guides { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
 .steps { list-style: none; padding: 0; margin: 44px 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; counter-reset: s; }
 .steps li { padding: 26px; border-radius: var(--radius); background: var(--panel); border: 1px solid var(--line); }
 .steps .n { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--sunset); color: #fff; font-weight: 800; font-size: 20px; margin-bottom: 14px; box-shadow: 0 0 24px rgba(255, 90, 165, .5); }
@@ -219,7 +227,7 @@ a.dl:hover { text-decoration: none; border-color: var(--pink); transform: transl
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .btn, .card, .dl, .sub p { transition: none; }
+  .btn, .card, .dl, .sub p, .guide a { transition: none; }
 }
 
 /* setups: tabs, each setup with its steps and screenshots */

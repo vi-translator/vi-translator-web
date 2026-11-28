@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 lub nowszy, wersja beta przez TestFlight od Apple. Bez komputera.",
   "dl_testflight": "Dołącz przez TestFlight",
   "q8": "Czy mogę go używać bez PC?",
-  "a8": "Tak, z PS5 lub Xbox: aplikacja na telefon z Androidem odczytuje grę przez Remote Play, a aplikacja na telewizor pokazuje tłumaczenia na obrazie gry. Zobacz „Aplikacja na telefon” powyżej."
+  "a8": "Tak, z PS5 lub Xbox: aplikacja na telefon z Androidem odczytuje grę przez Remote Play, a aplikacja na telewizor pokazuje tłumaczenia na obrazie gry. Zobacz „Aplikacja na telefon” powyżej.",
+  "guides_title": "Każda konfiguracja na jednym obrazku",
+  "guides_sub": "Znajdź tę, która pasuje do Twojej, a potem ją zapisz lub udostępnij. Dotknij obrazka, by otworzyć go w pełnym rozmiarze.",
+  "guide_0": "7 sposobów na grę w twoim języku",
+  "guide_1": "Sam telefon lub tablet",
+  "guide_2": "Telefon + aplikacja na TV",
+  "guide_3": "Telefon + dowolny telewizor",
+  "guide_4": "PC + monitor",
+  "guide_5": "PC + aplikacja na TV",
+  "guide_6": "PC + dowolny telewizor",
+  "guide_7": "Streaming i rozmowy"
 }

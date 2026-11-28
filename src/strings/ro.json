@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 sau mai nou, beta prin TestFlight de la Apple. Fără PC.",
   "dl_testflight": "Alătură-te pe TestFlight",
   "q8": "Îl pot folosi fără PC?",
-  "a8": "Da, cu un PS5 sau Xbox: aplicația Android pentru telefon citește jocul prin Remote Play, iar aplicația TV afișează traducerile peste joc. Vezi Aplicația de telefon mai sus."
+  "a8": "Da, cu un PS5 sau Xbox: aplicația Android pentru telefon citește jocul prin Remote Play, iar aplicația TV afișează traducerile peste joc. Vezi Aplicația de telefon mai sus.",
+  "guides_title": "Fiecare configurare într-o imagine",
+  "guides_sub": "Găsește-o pe cea potrivită pentru tine, apoi salveaz-o sau distribuie-o. Atinge o imagine ca s-o deschizi la dimensiune completă.",
+  "guide_0": "7 moduri să joci în limba ta",
+  "guide_1": "Doar telefonul sau tableta",
+  "guide_2": "Telefon + aplicația TV",
+  "guide_3": "Telefon + orice televizor",
+  "guide_4": "PC + monitor",
+  "guide_5": "PC + aplicația TV",
+  "guide_6": "PC + orice televizor",
+  "guide_7": "Stream și apeluri"
 }

@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 veya üstü, Apple'ın TestFlight'ı üzerinden beta. PC gerekmez.",
   "dl_testflight": "TestFlight'ta katıl",
   "q8": "PC olmadan kullanabilir miyim?",
-  "a8": "Evet, PS5 ya da Xbox ile: Android telefon uygulaması oyunu Remote Play üzerinden okur, TV uygulaması da çevirileri oyunun üzerinde gösterir. Yukarıdaki Telefon uygulaması bölümüne bak."
+  "a8": "Evet, PS5 ya da Xbox ile: Android telefon uygulaması oyunu Remote Play üzerinden okur, TV uygulaması da çevirileri oyunun üzerinde gösterir. Yukarıdaki Telefon uygulaması bölümüne bak.",
+  "guides_title": "Her kurulum bir görselde",
+  "guides_sub": "Seninkine uyanı bul, sonra kaydet ya da paylaş. Tam boyutta açmak için bir görsele dokun.",
+  "guide_0": "Kendi dilinde oynamanın 7 yolu",
+  "guide_1": "Yalnızca telefon ya da tablet",
+  "guide_2": "Telefon + TV uygulaması",
+  "guide_3": "Telefon + herhangi bir TV",
+  "guide_4": "PC + monitör",
+  "guide_5": "PC + TV uygulaması",
+  "guide_6": "PC + herhangi bir TV",
+  "guide_7": "Yayın ve görüşmeler"
 }

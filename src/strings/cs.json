@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 nebo novější, beta přes Apple TestFlight. Bez počítače.",
   "dl_testflight": "Připojit se přes TestFlight",
   "q8": "Můžu to používat bez PC?",
-  "a8": "Ano, s PS5 nebo Xboxem: aplikace pro telefon s Androidem čte hru přes Remote Play a aplikace pro TV zobrazuje překlady přes hru. Viz Aplikace pro telefon výše."
+  "a8": "Ano, s PS5 nebo Xboxem: aplikace pro telefon s Androidem čte hru přes Remote Play a aplikace pro TV zobrazuje překlady přes hru. Viz Aplikace pro telefon výše.",
+  "guides_title": "Každé nastavení na jednom obrázku",
+  "guides_sub": "Najděte to, které odpovídá tomu vašemu, a uložte nebo sdílejte ho. Klepnutím otevřete obrázek v plné velikosti.",
+  "guide_0": "7 způsobů, jak hrát ve svém jazyce",
+  "guide_1": "Jen telefon nebo tablet",
+  "guide_2": "Telefon + aplikace pro TV",
+  "guide_3": "Telefon + jakákoli TV",
+  "guide_4": "PC + monitor",
+  "guide_5": "PC + aplikace pro TV",
+  "guide_6": "PC + jakákoli TV",
+  "guide_7": "Streamování a hovory"
 }

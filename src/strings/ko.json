@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 이상, Apple TestFlight 베타. PC가 필요 없습니다.",
   "dl_testflight": "TestFlight에서 참여",
   "q8": "PC 없이 사용할 수 있나요?",
-  "a8": "네, PS5나 Xbox라면 가능합니다. Android 휴대폰 앱이 Remote Play로 게임을 읽고, TV 앱이 게임 위에 번역을 표시합니다. 위의 휴대폰 앱 항목을 참고하세요."
+  "a8": "네, PS5나 Xbox라면 가능합니다. Android 휴대폰 앱이 Remote Play로 게임을 읽고, TV 앱이 게임 위에 번역을 표시합니다. 위의 휴대폰 앱 항목을 참고하세요.",
+  "guides_title": "모든 설정 방법을 한 장의 그림으로",
+  "guides_sub": "내 환경에 맞는 그림을 찾아 저장하거나 공유하세요. 그림을 탭하면 원본 크기로 열립니다.",
+  "guide_0": "내 언어로 즐기는 7가지 방법",
+  "guide_1": "휴대폰이나 태블릿만으로",
+  "guide_2": "휴대폰 + TV 앱",
+  "guide_3": "휴대폰 + 어떤 TV든",
+  "guide_4": "PC + 모니터",
+  "guide_5": "PC + TV 앱",
+  "guide_6": "PC + 어떤 TV든",
+  "guide_7": "방송과 통화"
 }

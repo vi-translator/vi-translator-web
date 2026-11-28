@@ -44,7 +44,7 @@ const built = languages.filter((l) => texts[l.code]);
 // cache (pictures are cached for a week); the og:image and icons too
 const fileVersion = {};
 const versioned = (html) =>
-  html.replace(/(["(])(\/img\/[\w.-]+\.(?:webp|png|jpg|svg)|\/favicon\.png)(?=[")])/g, (_, q, path) => {
+  html.replace(/(["(])(\/img\/[\w./-]+\.(?:webp|png|jpg|svg)|\/favicon\.png)(?=[")])/g, (_, q, path) => {
     fileVersion[path] ||= createHash("sha256").update(readFileSync(`public${path}`)).digest("hex").slice(0, 8);
     return `${q}${path}?v=${fileVersion[path]}`;
   }).replace(/(https:\/\/vitranslator\.app)(\/img\/[\w.-]+\.png)(?=")/g, (_, host, path) => {
@@ -55,6 +55,16 @@ const versioned = (html) =>
 // the hero's TV: real frames from the game, each translated into another language (src/hero.json)
 const hero = JSON.parse(readFileSync("src/hero.json", "utf8"));
 const rtlLangs = new Set(["ar", "fa", "ur", "he"]);
+
+// every setup as a square picture, in the page's language (public/img/setups/<code>/, made by the
+// infographics generator; English where a language has none)
+const GUIDES = ["00-overview", "01-phone-tablet", "02-phone-smart-tv", "03-phone-any-tv", "04-pc-monitor", "05-pc-smart-tv", "06-pc-any-tv", "07-streaming"];
+const guidesHtml = (code, s) => GUIDES.map((g, i) => {
+  const dir = existsSync(`public/img/setups/${code}/${g}.webp`) ? code : "en";
+  const src = `/img/setups/${dir}/${g}.webp`;
+  const alt = esc(s[`guide_${i}`]);
+  return `          <figure class="guide"><a href="${src}" target="_blank" rel="noopener"><img src="${src}" alt="${alt}" width="1080" height="1080" loading="lazy" /></a><figcaption>${alt}</figcaption></figure>`;
+}).join("\n");
 const heroLines = (h) => {
   const dir = rtlLangs.has(h.lang) ? "rtl" : "ltr";
   return `<p class="sub-tr" dir="${dir}" lang="${h.lang}">${marks(h.sub_tr)}</p>
@@ -98,9 +108,10 @@ ${items}
     footer_langs: `      <nav class="footer-langs" aria-label="${esc(s.lang_label)}">${built.map((o) => `<a href="${o.path}" hreflang="${o.code}" lang="${o.code}">${esc(o.name)}</a>`).join(" ")}</nav>`,
     // the demo lines for main.js, already marked up (it shows them as they are)
     hero_first: heroLines(hero[0]),
+    guides_html: guidesHtml(l.code, s),
     demo_json: JSON.stringify(hero.map((h) => ({ ...h, sub_en: esc(h.sub_en), inst_en: esc(h.inst_en), sub_tr: marks(h.sub_tr), inst_tr: marks(h.inst_tr), dir: rtlLangs.has(h.lang) ? "rtl" : "ltr" }))).replace(/</g, "\\u003c"),
   };
-  const raw = new Set(["lang", "dir", "path", "build", "hero_first"]);
+  const raw = new Set(["lang", "dir", "path", "build", "hero_first", "guides_html"]);
   const html = template
     .replace(/\{\{\{(\w+)\}\}\}/g, (_, k) => {
       if (!(k in values)) throw new Error(`template: unknown {{{${k}}}}`);

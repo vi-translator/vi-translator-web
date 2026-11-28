@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 atau lebih baru, beta lewat TestFlight dari Apple. Tanpa PC.",
   "dl_testflight": "Gabung di TestFlight",
   "q8": "Bisakah saya memakainya tanpa PC?",
-  "a8": "Ya, dengan PS5 atau Xbox: aplikasi ponsel Android membaca game lewat Remote Play, dan aplikasi TV menampilkan terjemahannya di atas game. Lihat Aplikasi ponsel di atas."
+  "a8": "Ya, dengan PS5 atau Xbox: aplikasi ponsel Android membaca game lewat Remote Play, dan aplikasi TV menampilkan terjemahannya di atas game. Lihat Aplikasi ponsel di atas.",
+  "guides_title": "Setiap cara pemasangan dalam satu gambar",
+  "guides_sub": "Temukan yang cocok dengan punyamu, lalu simpan atau bagikan. Ketuk gambar untuk membukanya dalam ukuran penuh.",
+  "guide_0": "7 cara main dalam bahasamu",
+  "guide_1": "Ponsel atau tablet saja",
+  "guide_2": "Ponsel + aplikasi TV",
+  "guide_3": "Ponsel + TV apa pun",
+  "guide_4": "PC + monitor",
+  "guide_5": "PC + aplikasi TV",
+  "guide_6": "PC + TV apa pun",
+  "guide_7": "Streaming dan panggilan"
 }

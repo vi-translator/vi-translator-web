@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 of nieuwer, als bèta via TestFlight van Apple. Geen pc nodig.",
   "dl_testflight": "Meedoen via TestFlight",
   "q8": "Kan ik het zonder pc gebruiken?",
-  "a8": "Ja, met een PS5 of Xbox: de Android-telefoonapp leest het spel via Remote Play en de tv-app toont de vertalingen over het spel. Zie Telefoonapp hierboven."
+  "a8": "Ja, met een PS5 of Xbox: de Android-telefoonapp leest het spel via Remote Play en de tv-app toont de vertalingen over het spel. Zie Telefoonapp hierboven.",
+  "guides_title": "Elke opstelling in één afbeelding",
+  "guides_sub": "Zoek de jouwe op en sla hem op of deel hem. Tik op een afbeelding om hem op volledige grootte te openen.",
+  "guide_0": "7 manieren om in je eigen taal te spelen",
+  "guide_1": "Alleen telefoon of tablet",
+  "guide_2": "Telefoon + tv-app",
+  "guide_3": "Telefoon + elke tv",
+  "guide_4": "Pc + monitor",
+  "guide_5": "Pc + tv-app",
+  "guide_6": "Pc + elke tv",
+  "guide_7": "Streamen en bellen"
 }

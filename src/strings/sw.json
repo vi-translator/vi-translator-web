@@ -209,5 +209,15 @@
   "dl_iphone_note": "iOS 16 au mpya zaidi, toleo la majaribio kupitia TestFlight ya Apple. Hakuna PC inayohitajika.",
   "dl_testflight": "Jiunge kwenye TestFlight",
   "q8": "Je, naweza kuitumia bila PC?",
-  "a8": "Ndiyo, ukiwa na PS5 au Xbox: programu ya simu ya Android husoma mchezo kupitia Remote Play, na programu ya TV huonyesha tafsiri juu ya mchezo. Tazama Programu ya simu hapo juu."
+  "a8": "Ndiyo, ukiwa na PS5 au Xbox: programu ya simu ya Android husoma mchezo kupitia Remote Play, na programu ya TV huonyesha tafsiri juu ya mchezo. Tazama Programu ya simu hapo juu.",
+  "guides_title": "Kila mpangilio katika picha moja",
+  "guides_sub": "Tafuta unaolingana na wako, kisha uuhifadhi au uushiriki. Gusa picha ili uifungue kwa ukubwa kamili.",
+  "guide_0": "Njia 7 za kucheza kwa lugha yako",
+  "guide_1": "Simu au tableti peke yake",
+  "guide_2": "Simu + programu ya TV",
+  "guide_3": "Simu + TV yoyote",
+  "guide_4": "PC + skrini",
+  "guide_5": "PC + programu ya TV",
+  "guide_6": "PC + TV yoyote",
+  "guide_7": "Kutiririsha na simu"
 }
